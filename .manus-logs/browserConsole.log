@@ -1,0 +1,648 @@
+[2026-02-27T14:37:00.838Z] {"timestamp":1772203018831,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-27T14:37:00.838Z] {"timestamp":1772203018896,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-27T14:37:00.838Z] {"timestamp":1772203018999,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-27T18:06:54.963Z] {"timestamp":1772215612953,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-27T18:06:54.963Z] {"timestamp":1772215613095,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-27T18:06:54.963Z] {"timestamp":1772215613286,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught SyntaxError: The requested module '/@fs/home/maurice/Téléchargements/escae-benin (2)/node_modules/.vite/deps/@fortawesome_free-solid-svg-icons.js?v=a6aba865' does not provide an export named 'faTarget'","filename":"http://localhost:3000/src/pages/About.tsx","lineno":7,"colno":10,"stack":"SyntaxError: The requested module '/@fs/home/maurice/Téléchargements/escae-benin (2)/node_modules/.vite/deps/@fortawesome_free-solid-svg-icons.js?v=a6aba865' does not provide an export named 'faTarget'"}],"stack":"SyntaxError: The requested module '/@fs/home/maurice/Téléchargements/escae-benin (2)/node_modules/.vite/deps/@fortawesome_free-solid-svg-icons.js?v=a6aba865' does not provide an export named 'faTarget'"}
+[2026-02-28T00:50:26.336Z] {"timestamp":1772239824325,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T00:50:26.336Z] {"timestamp":1772239824332,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T00:50:26.336Z] {"timestamp":1772239825166,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T00:50:26.336Z] {"timestamp":1772239825199,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T00:53:38.761Z] {"timestamp":1772240016755,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T00:53:38.761Z] {"timestamp":1772240016763,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T00:59:27.622Z] {"timestamp":1772240365463,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-02-28T00:59:30.043Z] {"timestamp":1772240368034,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T00:59:30.043Z] {"timestamp":1772240368131,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T00:59:35.320Z] {"timestamp":1772240373312,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T00:59:35.320Z] {"timestamp":1772240373331,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T00:59:43.784Z] {"timestamp":1772240381773,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T00:59:43.784Z] {"timestamp":1772240381795,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T00:59:51.970Z] {"timestamp":1772240389956,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T00:59:51.970Z] {"timestamp":1772240389974,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:00:29.022Z] {"timestamp":1772240427011,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:00:29.023Z] {"timestamp":1772240427022,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:00:45.814Z] {"timestamp":1772240443804,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:00:45.814Z] {"timestamp":1772240443811,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:01:03.150Z] {"timestamp":1772240461138,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:01:03.150Z] {"timestamp":1772240461166,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:01:14.801Z] {"timestamp":1772240472790,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:01:14.801Z] {"timestamp":1772240472811,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:01:44.474Z] {"timestamp":1772240502466,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:01:44.474Z] {"timestamp":1772240502478,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:01:56.167Z] {"timestamp":1772240514162,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:01:56.167Z] {"timestamp":1772240514177,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:02:10.603Z] {"timestamp":1772240528598,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:02:10.603Z] {"timestamp":1772240528699,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T01:02:33.109Z] {"timestamp":1772240551103,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T01:02:33.109Z] {"timestamp":1772240551119,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:24:25.130Z] {"timestamp":1772240680193,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-02-28T06:24:29.207Z] {"timestamp":1772259867010,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:24:33.014Z] {"timestamp":1772259871170,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:26:59.000Z] {"timestamp":1772260016996,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:26:59.000Z] {"timestamp":1772260017046,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:26:59.000Z] {"timestamp":1772260017070,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:26:59.000Z] {"timestamp":1772260017098,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:28:05.849Z] {"timestamp":1772260083845,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:28:05.849Z] {"timestamp":1772260083871,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:28:05.849Z] {"timestamp":1772260084070,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:28:05.849Z] {"timestamp":1772260084173,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:30:07.901Z] {"timestamp":1772260187987,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-02-28T06:30:10.837Z] {"timestamp":1772260208833,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:30:10.837Z] {"timestamp":1772260208855,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:30:10.837Z] {"timestamp":1772260209880,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:30:10.837Z] {"timestamp":1772260209914,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:31:50.994Z] {"timestamp":1772260310927,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-02-28T06:31:53.011Z] {"timestamp":1772260311287,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:31:53.011Z] {"timestamp":1772260311380,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:31:53.011Z] {"timestamp":1772260312799,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:31:53.011Z] {"timestamp":1772260312866,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:31:53.011Z] {"timestamp":1772260312870,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-02-28T06:31:56.050Z] {"timestamp":1772260314046,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:31:56.050Z] {"timestamp":1772260314216,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:31:56.050Z] {"timestamp":1772260314250,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:31:56.050Z] {"timestamp":1772260314276,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:32:12.762Z] {"timestamp":1772260331889,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:32:12.762Z] {"timestamp":1772260331952,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:32:15.712Z] {"timestamp":1772260333709,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:32:15.712Z] {"timestamp":1772260333870,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:32:15.712Z] {"timestamp":1772260334080,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:32:15.712Z] {"timestamp":1772260334126,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:32:52.326Z] {"timestamp":1772260370314,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:32:52.326Z] {"timestamp":1772260370428,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:32:52.326Z] {"timestamp":1772260370649,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:32:52.326Z] {"timestamp":1772260370750,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:33:09.269Z] {"timestamp":1772260387263,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:33:09.269Z] {"timestamp":1772260387273,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:33:09.269Z] {"timestamp":1772260387437,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:33:09.269Z] {"timestamp":1772260387495,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:33:30.798Z] {"timestamp":1772260408793,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:33:30.798Z] {"timestamp":1772260408836,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:33:30.798Z] {"timestamp":1772260409093,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:33:30.798Z] {"timestamp":1772260409121,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:34:05.020Z] {"timestamp":1772260443014,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:34:05.020Z] {"timestamp":1772260443023,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:34:05.020Z] {"timestamp":1772260443080,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:34:05.020Z] {"timestamp":1772260443102,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:34:11.380Z] {"timestamp":1772260449367,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:34:11.380Z] {"timestamp":1772260449387,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:34:11.380Z] {"timestamp":1772260449453,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:34:11.380Z] {"timestamp":1772260449492,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:35:21.533Z] {"timestamp":1772260519522,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:35:21.533Z] {"timestamp":1772260519534,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:35:21.533Z] {"timestamp":1772260519735,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:35:21.533Z] {"timestamp":1772260519760,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:35:39.449Z] {"timestamp":1772260537443,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:35:39.449Z] {"timestamp":1772260537469,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:35:39.449Z] {"timestamp":1772260537682,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:35:39.449Z] {"timestamp":1772260537713,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:36:03.593Z] {"timestamp":1772260561587,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:36:03.593Z] {"timestamp":1772260561636,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:36:03.593Z] {"timestamp":1772260561742,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:36:03.593Z] {"timestamp":1772260561796,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:37:09.101Z] {"timestamp":1772260597799,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-02-28T06:37:11.863Z] {"timestamp":1772260629860,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:37:11.863Z] {"timestamp":1772260630972,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:37:11.863Z] {"timestamp":1772260631533,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:37:11.863Z] {"timestamp":1772260631560,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:37:46.249Z] {"timestamp":1772260664244,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:37:46.249Z] {"timestamp":1772260664330,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:37:46.249Z] {"timestamp":1772260664491,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:37:46.249Z] {"timestamp":1772260664527,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:39:15.849Z] {"timestamp":1772260753837,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:39:15.849Z] {"timestamp":1772260753855,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:39:15.849Z] {"timestamp":1772260755062,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:39:15.849Z] {"timestamp":1772260755106,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3001/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3001/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3001/src/pages/Home.tsx:530:11"}
+[2026-02-28T06:48:07.940Z] {"timestamp":1772261285933,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T06:48:07.940Z] {"timestamp":1772261285963,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T06:48:07.940Z] {"timestamp":1772261286197,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T06:48:07.940Z] {"timestamp":1772261286284,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:31:06.969Z] {"timestamp":1772263864957,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:31:06.969Z] {"timestamp":1772263865002,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:31:06.969Z] {"timestamp":1772263866590,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:31:06.969Z] {"timestamp":1772263866644,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:35:05.075Z] {"timestamp":1772264103061,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:35:05.075Z] {"timestamp":1772264103085,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:35:05.075Z] {"timestamp":1772264103249,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:35:05.075Z] {"timestamp":1772264103267,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:35:11.641Z] {"timestamp":1772264109631,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:35:11.641Z] {"timestamp":1772264109650,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:35:11.641Z] {"timestamp":1772264109719,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:35:11.641Z] {"timestamp":1772264109753,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:35:13.757Z] {"timestamp":1772264112434,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:35:13.757Z] {"timestamp":1772264112454,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:35:13.757Z] {"timestamp":1772264112551,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:35:13.757Z] {"timestamp":1772264112584,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:35:15.832Z] {"timestamp":1772264113820,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:35:15.832Z] {"timestamp":1772264113831,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:35:15.832Z] {"timestamp":1772264113865,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:35:15.832Z] {"timestamp":1772264113879,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:35:59.497Z] {"timestamp":1772264157493,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:35:59.498Z] {"timestamp":1772264157507,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:35:59.498Z] {"timestamp":1772264157730,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:35:59.498Z] {"timestamp":1772264157764,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:36:40.827Z] {"timestamp":1772264199047,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:36:40.827Z] {"timestamp":1772264199054,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:36:40.827Z] {"timestamp":1772264199113,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:36:40.827Z] {"timestamp":1772264199113,"level":"LOG","args":["🔧 TEST main.tsx loaded"],"stack":null}
+[2026-02-28T07:36:40.827Z] {"timestamp":1772264199113,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-02-28T07:36:40.827Z] {"timestamp":1772264199114,"level":"LOG","args":["🎨 Rendering TestApp..."],"stack":null}
+[2026-02-28T07:36:40.827Z] {"timestamp":1772264199143,"level":"LOG","args":["🎨 TestApp rendering"],"stack":null}
+[2026-02-28T07:36:42.969Z] {"timestamp":1772264200957,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:36:42.969Z] {"timestamp":1772264200963,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:36:42.969Z] {"timestamp":1772264200963,"level":"LOG","args":["🔧 TEST main.tsx loaded"],"stack":null}
+[2026-02-28T07:36:42.969Z] {"timestamp":1772264200963,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-02-28T07:36:42.969Z] {"timestamp":1772264200964,"level":"LOG","args":["🎨 Rendering TestApp..."],"stack":null}
+[2026-02-28T07:36:42.969Z] {"timestamp":1772264200969,"level":"LOG","args":["🎨 TestApp rendering"],"stack":null}
+[2026-02-28T07:36:42.969Z] {"timestamp":1772264200976,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:36:51.141Z] {"timestamp":1772264209131,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:36:51.141Z] {"timestamp":1772264209137,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:36:51.141Z] {"timestamp":1772264209137,"level":"LOG","args":["🔧 TEST main.tsx loaded"],"stack":null}
+[2026-02-28T07:36:51.141Z] {"timestamp":1772264209138,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-02-28T07:36:51.141Z] {"timestamp":1772264209138,"level":"LOG","args":["🎨 Rendering TestApp..."],"stack":null}
+[2026-02-28T07:36:51.141Z] {"timestamp":1772264209143,"level":"LOG","args":["🎨 TestApp rendering"],"stack":null}
+[2026-02-28T07:36:51.141Z] {"timestamp":1772264209150,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:39:16.125Z] {"timestamp":1772264354120,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:39:16.126Z] {"timestamp":1772264354139,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:39:16.126Z] {"timestamp":1772264354357,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:39:16.126Z] {"timestamp":1772264354393,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:44:31.605Z] {"timestamp":1772264669601,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:44:31.605Z] {"timestamp":1772264669634,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:44:31.605Z] {"timestamp":1772264669806,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:44:31.605Z] {"timestamp":1772264669821,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:44:41.290Z] {"timestamp":1772264679287,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:44:41.290Z] {"timestamp":1772264679300,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:44:41.290Z] {"timestamp":1772264679331,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:44:41.290Z] {"timestamp":1772264679350,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: GraduationCap is not defined","filename":"http://localhost:3000/src/pages/Home.tsx","lineno":530,"colno":11,"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}],"stack":"ReferenceError: GraduationCap is not defined\n    at http://localhost:3000/src/pages/Home.tsx:530:11"}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264880568,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264880584,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264880840,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264880880,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264880880,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264880881,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264880923,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264881053,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-02-28T07:48:02.576Z] {"timestamp":1772264881136,"level":"ERROR","args":["%o\n\n%s\n\n%s\n",{"type":"Error","message":"Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.\n\nCheck the render method of `Home`.","stack":"Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.\n\nCheck the render method of `Home`.\n    at createFiberFromTypeAndProps (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:3741:30)\n    at createFiberFromElement (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:3754:16)\n    at createChild (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:4747:32)\n    at reconcileChildrenArray (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:4965:26)\n    at reconcileChildFibersImpl (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5171:88)\n    at http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5237:35\n    at reconcileChildren (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7182:53)\n    at beginWork (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:8701:104)\n    at runWithFiberInDEV (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:997:72)\n    at performUnitOfWork (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:12561:98)"},"The above error occurred in the <div> component.","React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary."],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at defaultOnCaughtError (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7001:19)\n    at logCaughtError (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7033:11)\n    at runWithFiberInDEV (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:997:72)\n    at update.callback (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7066:13)\n    at callCallback (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5491:18)\n    at commitCallbacks (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5503:13)\n    at runWithFiberInDEV (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:997:72)\n    at commitClassCallbacks (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:9490:13)\n    at commitLayoutEffectOnFiber (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:9958:27)"}
+[2026-02-28T07:48:18.572Z] {"timestamp":1772264897891,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-02-28T07:48:18.572Z] {"timestamp":1772264897894,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264900596,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264900612,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264901059,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264901090,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264901090,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264901091,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264901160,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264901460,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-02-28T07:48:22.605Z] {"timestamp":1772264901555,"level":"ERROR","args":["%o\n\n%s\n\n%s\n",{"type":"Error","message":"Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.\n\nCheck the render method of `Home`.","stack":"Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object.\n\nCheck the render method of `Home`.\n    at createFiberFromTypeAndProps (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:3741:30)\n    at createFiberFromElement (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:3754:16)\n    at createChild (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:4747:32)\n    at reconcileChildrenArray (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:4965:26)\n    at reconcileChildFibersImpl (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5171:88)\n    at http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5237:35\n    at reconcileChildren (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7182:53)\n    at beginWork (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:8701:104)\n    at runWithFiberInDEV (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:997:72)\n    at performUnitOfWork (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:12561:98)"},"The above error occurred in the <div> component.","React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary."],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at defaultOnCaughtError (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7001:19)\n    at logCaughtError (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7033:11)\n    at runWithFiberInDEV (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:997:72)\n    at update.callback (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:7066:13)\n    at callCallback (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5491:18)\n    at commitCallbacks (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:5503:13)\n    at runWithFiberInDEV (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:997:72)\n    at commitClassCallbacks (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:9490:13)\n    at commitLayoutEffectOnFiber (http://localhost:3000/@fs/home/maurice/T%C3%A9l%C3%A9chargements/escae-benin%20(2)/node_modules/.vite/deps/react-dom_client.js?v=9514c571:9958:27)"}
+[2026-02-28T07:49:32.601Z] {"timestamp":1772264971260,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-02-28T07:49:32.601Z] {"timestamp":1772264971261,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-02-28T07:49:52.761Z] {"timestamp":1772264992547,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-02-28T07:49:52.761Z] {"timestamp":1772264992549,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-02-28T07:49:58.714Z] {"timestamp":1772264996705,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:49:58.714Z] {"timestamp":1772264996721,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:49:58.714Z] {"timestamp":1772264997018,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:49:58.714Z] {"timestamp":1772264997058,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-02-28T07:49:58.714Z] {"timestamp":1772264997058,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-02-28T07:49:58.714Z] {"timestamp":1772264997059,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-02-28T07:49:58.714Z] {"timestamp":1772264997100,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-02-28T07:53:27.180Z] {"timestamp":1772265207130,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-02-28T07:55:14.171Z] {"timestamp":1772265207281,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-02-28T07:55:14.173Z] {"timestamp":1772265207292,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-02-28T07:55:14.173Z] {"timestamp":1772265207373,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-02-28T07:55:14.173Z] {"timestamp":1772265207394,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-02-28T07:55:14.173Z] {"timestamp":1772265207394,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-02-28T07:55:14.173Z] {"timestamp":1772265207394,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-02-28T07:55:14.173Z] {"timestamp":1772265207403,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T12:15:13.763Z] {"timestamp":1772367313515,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-03-01T12:16:35.655Z] {"timestamp":1772367313515,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-03-01T12:16:39.306Z] {"timestamp":1772367396853,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T12:16:39.306Z] {"timestamp":1772367396912,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T12:16:39.306Z] {"timestamp":1772367397314,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T12:16:39.306Z] {"timestamp":1772367397435,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T12:16:39.306Z] {"timestamp":1772367397435,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T12:16:39.306Z] {"timestamp":1772367397436,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T12:16:39.306Z] {"timestamp":1772367397471,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T13:41:17.310Z] {"timestamp":1772372477077,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T13:41:17.310Z] {"timestamp":1772372477078,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T13:45:35.298Z] {"timestamp":1772372720771,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Formations.tsx"],"stack":null}
+[2026-03-01T13:45:35.298Z] {"timestamp":1772372720771,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T13:47:35.312Z] {"timestamp":1772372852593,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T13:47:35.312Z] {"timestamp":1772372852594,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T13:48:53.912Z] {"timestamp":1772372931900,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T13:48:53.912Z] {"timestamp":1772372931908,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T13:48:53.912Z] {"timestamp":1772372931979,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T13:48:53.912Z] {"timestamp":1772372932010,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T13:48:53.912Z] {"timestamp":1772372932010,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T13:48:53.912Z] {"timestamp":1772372932010,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T13:48:53.912Z] {"timestamp":1772372932024,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T14:12:35.315Z] {"timestamp":1772374306217,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:12:35.315Z] {"timestamp":1772374306394,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T14:12:35.315Z] {"timestamp":1772374306394,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374373638,"level":"ERROR","args":["[vite]",{"type":"Error","message":"faFlask is not defined","stack":"ReferenceError: faFlask is not defined\n    at http://localhost:3000/src/pages/Home.tsx?t=1772374372856:619:21"}],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:180:78)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374373651,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374373653,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374373653,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374386957,"level":"ERROR","args":["[vite]",{"type":"Error","message":"faFlask is not defined","stack":"ReferenceError: faFlask is not defined\n    at http://localhost:3000/src/pages/Home.tsx?t=1772374386646:619:21"}],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:180:78)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374386959,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Home.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374386963,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T14:13:15.031Z] {"timestamp":1772374386964,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:13:21.999Z] {"timestamp":1772374399988,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T14:13:21.999Z] {"timestamp":1772374400007,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T14:13:21.999Z] {"timestamp":1772374400253,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T14:13:21.999Z] {"timestamp":1772374400282,"level":"ERROR","args":[{"type":"UncaughtError","message":"Uncaught ReferenceError: faFlask is not defined","filename":"http://localhost:3000/src/pages/Home.tsx?t=1772374386646","lineno":619,"colno":21,"stack":"ReferenceError: faFlask is not defined\n    at http://localhost:3000/src/pages/Home.tsx?t=1772374386646:619:21"}],"stack":"ReferenceError: faFlask is not defined\n    at http://localhost:3000/src/pages/Home.tsx?t=1772374386646:619:21"}
+[2026-03-01T14:14:20.338Z] {"timestamp":1772374458334,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T14:14:20.338Z] {"timestamp":1772374458366,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T14:14:20.338Z] {"timestamp":1772374458418,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T14:14:20.338Z] {"timestamp":1772374458486,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T14:14:20.338Z] {"timestamp":1772374458486,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T14:14:20.338Z] {"timestamp":1772374458486,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T14:14:20.338Z] {"timestamp":1772374458527,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T14:26:35.306Z] {"timestamp":1772375169676,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Actualites.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:26:35.306Z] {"timestamp":1772375169766,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T14:26:35.306Z] {"timestamp":1772375169766,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375202629,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375202629,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375226740,"level":"DEBUG","args":["[vite]","hot updated: /src/App.tsx"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375226741,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375227292,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375231337,"level":"DEBUG","args":["[vite]","hot updated: /src/App.tsx"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375231338,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375232296,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375242902,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375242902,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375243071,"level":"DEBUG","args":["[vite]","hot updated: /src/App.tsx"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375243071,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375243091,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375243091,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/ArticleDetail.tsx"],"stack":null}
+[2026-03-01T14:27:35.325Z] {"timestamp":1772375243290,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T14:34:35.299Z] {"timestamp":1772375669930,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Campus.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:34:35.300Z] {"timestamp":1772375670052,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Campus.tsx"],"stack":null}
+[2026-03-01T14:34:35.300Z] {"timestamp":1772375670052,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:34:35.300Z] {"timestamp":1772375670064,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Galerie.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:34:35.300Z] {"timestamp":1772375670080,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T14:34:35.300Z] {"timestamp":1772375670081,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:35:35.325Z] {"timestamp":1772375697426,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Campus.tsx"],"stack":null}
+[2026-03-01T14:35:35.325Z] {"timestamp":1772375697427,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:35:35.325Z] {"timestamp":1772375723821,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T14:35:35.325Z] {"timestamp":1772375723822,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:40:35.307Z] {"timestamp":1772376024548,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Campus.tsx"],"stack":null}
+[2026-03-01T14:40:35.307Z] {"timestamp":1772376024548,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:40:35.307Z] {"timestamp":1772376024662,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T14:40:35.307Z] {"timestamp":1772376024662,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:48:35.326Z] {"timestamp":1772376500273,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Galerie.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.error (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T14:48:35.326Z] {"timestamp":1772376500372,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T14:48:35.326Z] {"timestamp":1772376500373,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:49:35.306Z] {"timestamp":1772376566440,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T14:49:35.306Z] {"timestamp":1772376566440,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:50:04.543Z] {"timestamp":1772376593158,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T14:50:04.543Z] {"timestamp":1772376593158,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T14:50:07.741Z] {"timestamp":1772376605735,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T14:50:07.741Z] {"timestamp":1772376605756,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T14:50:07.741Z] {"timestamp":1772376606018,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T14:50:07.741Z] {"timestamp":1772376606116,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T14:50:07.741Z] {"timestamp":1772376606116,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T14:50:07.742Z] {"timestamp":1772376606117,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T14:50:07.742Z] {"timestamp":1772376606162,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T15:02:27.739Z] {"timestamp":1772377345846,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Formations.tsx"],"stack":null}
+[2026-03-01T15:02:27.740Z] {"timestamp":1772377345846,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:02:53.780Z] {"timestamp":1772377373331,"level":"ERROR","args":["[vite]","Failed to reload /src/pages/Actualites.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above)"],"stack":"Error\n    at console.<computed> [as error] (http://localhost:3000/__manus__/debug-collector.js:391:37)\n    at Object.error (http://localhost:3000/@vite/client:809:26)\n    at HMRClient.warnFailedUpdate (http://localhost:3000/@vite/client:181:15)\n    at HMRClient.fetchUpdate (http://localhost:3000/@vite/client:212:10)\n    at async Promise.all (index 0)\n    at async HMRClient.queueUpdate (http://localhost:3000/@vite/client:196:5)\n    at async Promise.all (index 0)\n    at async handleMessage (http://localhost:3000/@vite/client:838:4)"}
+[2026-03-01T15:02:53.780Z] {"timestamp":1772377373399,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T15:02:53.780Z] {"timestamp":1772377373399,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:02:59.738Z] {"timestamp":1772377379115,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T15:02:59.738Z] {"timestamp":1772377379116,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:03:15.740Z] {"timestamp":1772377394162,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Formations.tsx"],"stack":null}
+[2026-03-01T15:03:15.740Z] {"timestamp":1772377394162,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:03:15.740Z] {"timestamp":1772377394399,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T15:03:15.740Z] {"timestamp":1772377394399,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:03:17.739Z] {"timestamp":1772377397210,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Formations.tsx"],"stack":null}
+[2026-03-01T15:03:17.739Z] {"timestamp":1772377397210,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:04:05.740Z] {"timestamp":1772377445061,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Formations.tsx"],"stack":null}
+[2026-03-01T15:04:05.740Z] {"timestamp":1772377445061,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:04:11.739Z] {"timestamp":1772377450109,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-03-01T15:04:11.739Z] {"timestamp":1772377450109,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:04:17.739Z] {"timestamp":1772377457505,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-03-01T15:04:17.739Z] {"timestamp":1772377457506,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:04:45.740Z] {"timestamp":1772377485475,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Header.tsx"],"stack":null}
+[2026-03-01T15:04:45.740Z] {"timestamp":1772377485475,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:04:47.739Z] {"timestamp":1772377486872,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-03-01T15:04:47.739Z] {"timestamp":1772377486872,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:05:43.738Z] {"timestamp":1772377541752,"level":"DEBUG","args":["[vite]","hot updated: /src/components/Footer.tsx"],"stack":null}
+[2026-03-01T15:05:43.738Z] {"timestamp":1772377541752,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:06:33.704Z] {"timestamp":1772377591694,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T15:06:33.704Z] {"timestamp":1772377591716,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T15:06:33.704Z] {"timestamp":1772377591887,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T15:06:33.704Z] {"timestamp":1772377591955,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T15:06:33.704Z] {"timestamp":1772377591955,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T15:06:33.704Z] {"timestamp":1772377591955,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T15:06:33.704Z] {"timestamp":1772377591983,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T15:08:07.701Z] {"timestamp":1772377685765,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T15:08:07.701Z] {"timestamp":1772377685765,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:08:13.700Z] {"timestamp":1772377693205,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T15:08:13.700Z] {"timestamp":1772377693205,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:08:25.702Z] {"timestamp":1772377704789,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T15:08:25.702Z] {"timestamp":1772377704789,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:08:35.702Z] {"timestamp":1772377714432,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T15:08:35.702Z] {"timestamp":1772377714432,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:08:45.700Z] {"timestamp":1772377724901,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T15:08:45.700Z] {"timestamp":1772377724901,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:08:53.701Z] {"timestamp":1772377733232,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T15:08:53.701Z] {"timestamp":1772377733232,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:01.697Z] {"timestamp":1772377739782,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T15:09:01.697Z] {"timestamp":1772377739782,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:19.700Z] {"timestamp":1772377758046,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T15:09:19.700Z] {"timestamp":1772377758046,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:27.701Z] {"timestamp":1772377765994,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T15:09:27.701Z] {"timestamp":1772377765995,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:37.702Z] {"timestamp":1772377777181,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T15:09:37.702Z] {"timestamp":1772377777182,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:47.700Z] {"timestamp":1772377787307,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Campus.tsx"],"stack":null}
+[2026-03-01T15:09:47.700Z] {"timestamp":1772377787307,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377796588,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377796588,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377796743,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377796743,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377796909,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Campus.tsx"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377796909,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377797111,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T15:09:57.699Z] {"timestamp":1772377797111,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T16:49:31.365Z] {"timestamp":1772383769358,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:49:31.365Z] {"timestamp":1772383769409,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:49:31.365Z] {"timestamp":1772383769668,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:49:31.365Z] {"timestamp":1772383769714,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:49:31.365Z] {"timestamp":1772383769714,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:49:31.365Z] {"timestamp":1772383769714,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:49:31.365Z] {"timestamp":1772383769730,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:49:36.507Z] {"timestamp":1772383774500,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:49:36.507Z] {"timestamp":1772383774522,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:49:36.507Z] {"timestamp":1772383774644,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:49:36.507Z] {"timestamp":1772383774709,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:49:36.507Z] {"timestamp":1772383774709,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:49:36.507Z] {"timestamp":1772383774709,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:49:36.507Z] {"timestamp":1772383774728,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:49:45.736Z] {"timestamp":1772383783733,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:49:45.736Z] {"timestamp":1772383783744,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:49:45.736Z] {"timestamp":1772383783815,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:49:45.736Z] {"timestamp":1772383783877,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:49:45.736Z] {"timestamp":1772383783877,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:49:45.736Z] {"timestamp":1772383783878,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:49:45.736Z] {"timestamp":1772383783898,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:50:05.855Z] {"timestamp":1772383803835,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:50:05.855Z] {"timestamp":1772383803848,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:50:05.855Z] {"timestamp":1772383803929,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:50:05.855Z] {"timestamp":1772383804018,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:50:05.855Z] {"timestamp":1772383804018,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:50:05.855Z] {"timestamp":1772383804019,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:50:05.855Z] {"timestamp":1772383804037,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:50:16.581Z] {"timestamp":1772383814576,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:50:16.581Z] {"timestamp":1772383814603,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:50:16.581Z] {"timestamp":1772383814682,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:50:16.581Z] {"timestamp":1772383814756,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:50:16.581Z] {"timestamp":1772383814756,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:50:16.581Z] {"timestamp":1772383814756,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:50:16.581Z] {"timestamp":1772383814800,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:50:22.080Z] {"timestamp":1772383820069,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:50:22.080Z] {"timestamp":1772383820094,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:50:22.080Z] {"timestamp":1772383820209,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:50:22.080Z] {"timestamp":1772383820276,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:50:22.080Z] {"timestamp":1772383820276,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:50:22.080Z] {"timestamp":1772383820276,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:50:22.080Z] {"timestamp":1772383820298,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:50:58.083Z] {"timestamp":1772383856079,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:50:58.083Z] {"timestamp":1772383856112,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:50:58.083Z] {"timestamp":1772383856217,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:50:58.083Z] {"timestamp":1772383856267,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:50:58.083Z] {"timestamp":1772383856267,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:50:58.083Z] {"timestamp":1772383856268,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:50:58.083Z] {"timestamp":1772383856295,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:51:29.900Z] {"timestamp":1772383887895,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:51:29.900Z] {"timestamp":1772383887909,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:51:29.900Z] {"timestamp":1772383887982,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:51:29.900Z] {"timestamp":1772383888038,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:51:29.900Z] {"timestamp":1772383888038,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:51:29.900Z] {"timestamp":1772383888039,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:51:29.900Z] {"timestamp":1772383888065,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:52:27.492Z] {"timestamp":1772383945489,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:52:27.492Z] {"timestamp":1772383945502,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:52:27.492Z] {"timestamp":1772383945622,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:52:27.492Z] {"timestamp":1772383945685,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:52:27.492Z] {"timestamp":1772383945685,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:52:27.492Z] {"timestamp":1772383945685,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:52:27.492Z] {"timestamp":1772383945701,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:52:46.405Z] {"timestamp":1772383964396,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:52:46.405Z] {"timestamp":1772383964409,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:52:46.405Z] {"timestamp":1772383964462,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:52:46.405Z] {"timestamp":1772383964516,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:52:46.405Z] {"timestamp":1772383964516,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:52:46.405Z] {"timestamp":1772383964516,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:52:46.405Z] {"timestamp":1772383964537,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:52:50.014Z] {"timestamp":1772383968009,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:52:50.014Z] {"timestamp":1772383968039,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:52:50.014Z] {"timestamp":1772383968143,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:52:50.014Z] {"timestamp":1772383968181,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:52:50.014Z] {"timestamp":1772383968181,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:52:50.014Z] {"timestamp":1772383968181,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:52:50.014Z] {"timestamp":1772383968193,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:53:09.735Z] {"timestamp":1772383987728,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:53:09.736Z] {"timestamp":1772383987740,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:53:09.736Z] {"timestamp":1772383987892,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:53:09.736Z] {"timestamp":1772383987942,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:53:09.736Z] {"timestamp":1772383987942,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:53:09.736Z] {"timestamp":1772383987943,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:53:09.736Z] {"timestamp":1772383987960,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:53:43.883Z] {"timestamp":1772384021874,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:53:43.883Z] {"timestamp":1772384021902,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:53:43.883Z] {"timestamp":1772384021995,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:53:43.883Z] {"timestamp":1772384022033,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:53:43.883Z] {"timestamp":1772384022033,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:53:43.883Z] {"timestamp":1772384022033,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:53:43.883Z] {"timestamp":1772384022078,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:54:14.048Z] {"timestamp":1772384052040,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:54:14.048Z] {"timestamp":1772384052068,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:54:14.048Z] {"timestamp":1772384052184,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:54:14.048Z] {"timestamp":1772384052260,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:54:14.048Z] {"timestamp":1772384052260,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:54:14.048Z] {"timestamp":1772384052260,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:54:14.048Z] {"timestamp":1772384052279,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:54:45.112Z] {"timestamp":1772384084469,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:54:45.112Z] {"timestamp":1772384084489,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:54:45.112Z] {"timestamp":1772384084604,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:54:45.112Z] {"timestamp":1772384084646,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:54:45.112Z] {"timestamp":1772384084646,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:54:45.112Z] {"timestamp":1772384084646,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:54:45.112Z] {"timestamp":1772384084660,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:54:47.327Z] {"timestamp":1772384085321,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:54:47.327Z] {"timestamp":1772384085334,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:54:47.327Z] {"timestamp":1772384085435,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:54:47.327Z] {"timestamp":1772384085499,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:54:47.327Z] {"timestamp":1772384085499,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:54:47.327Z] {"timestamp":1772384085500,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:54:47.327Z] {"timestamp":1772384085518,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:55:52.276Z] {"timestamp":1772384150266,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:55:52.276Z] {"timestamp":1772384150287,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:55:52.276Z] {"timestamp":1772384150407,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:55:52.276Z] {"timestamp":1772384150474,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:55:52.276Z] {"timestamp":1772384150474,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:55:52.276Z] {"timestamp":1772384150481,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:55:52.276Z] {"timestamp":1772384150499,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:56:21.906Z] {"timestamp":1772384179902,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:56:21.906Z] {"timestamp":1772384179933,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:56:21.906Z] {"timestamp":1772384180036,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:56:21.906Z] {"timestamp":1772384180104,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:56:21.906Z] {"timestamp":1772384180104,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:56:21.906Z] {"timestamp":1772384180105,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:56:21.906Z] {"timestamp":1772384180155,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:57:31.500Z] {"timestamp":1772384249492,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:57:31.500Z] {"timestamp":1772384249545,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:57:31.500Z] {"timestamp":1772384249610,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:57:31.500Z] {"timestamp":1772384249652,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:57:31.500Z] {"timestamp":1772384249652,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:57:31.500Z] {"timestamp":1772384249653,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:57:31.500Z] {"timestamp":1772384249667,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:57:34.810Z] {"timestamp":1772384252807,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:57:34.810Z] {"timestamp":1772384252825,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:57:34.810Z] {"timestamp":1772384252953,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:57:34.810Z] {"timestamp":1772384253022,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:57:34.810Z] {"timestamp":1772384253022,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:57:34.810Z] {"timestamp":1772384253022,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:57:34.810Z] {"timestamp":1772384253042,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T16:59:13.398Z] {"timestamp":1772384351391,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T16:59:13.398Z] {"timestamp":1772384351405,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T16:59:13.398Z] {"timestamp":1772384351503,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T16:59:13.398Z] {"timestamp":1772384351562,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T16:59:13.398Z] {"timestamp":1772384351562,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T16:59:13.398Z] {"timestamp":1772384351563,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T16:59:13.398Z] {"timestamp":1772384351584,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T17:01:08.229Z] {"timestamp":1772384466218,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T17:01:08.229Z] {"timestamp":1772384466249,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T17:01:08.229Z] {"timestamp":1772384466409,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T17:01:08.229Z] {"timestamp":1772384466462,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T17:01:08.229Z] {"timestamp":1772384466462,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T17:01:08.229Z] {"timestamp":1772384466463,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T17:01:08.229Z] {"timestamp":1772384466516,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T17:01:52.222Z] {"timestamp":1772384511179,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T17:01:52.222Z] {"timestamp":1772384511179,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:01:58.222Z] {"timestamp":1772384516896,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T17:01:58.222Z] {"timestamp":1772384516896,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:02:00.223Z] {"timestamp":1772384518991,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T17:02:00.223Z] {"timestamp":1772384518991,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:02:00.223Z] {"timestamp":1772384520109,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T17:02:00.223Z] {"timestamp":1772384520109,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:05:13.250Z] {"timestamp":1772384711243,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T17:05:13.250Z] {"timestamp":1772384711255,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T17:05:13.250Z] {"timestamp":1772384711353,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T17:05:13.250Z] {"timestamp":1772384711398,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T17:05:13.250Z] {"timestamp":1772384711398,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T17:05:13.250Z] {"timestamp":1772384711399,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T17:05:13.250Z] {"timestamp":1772384711418,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T17:07:05.351Z] {"timestamp":1772384824171,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T17:07:05.351Z] {"timestamp":1772384824176,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:05.351Z] {"timestamp":1772384824578,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T17:07:05.351Z] {"timestamp":1772384824578,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:05.351Z] {"timestamp":1772384824973,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Formations.tsx"],"stack":null}
+[2026-03-01T17:07:05.351Z] {"timestamp":1772384824974,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384825356,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384825356,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384825528,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Campus.tsx"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384825529,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384825779,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384825779,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384826126,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384826126,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384826317,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:07:07.248Z] {"timestamp":1772384826317,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:35.289Z] {"timestamp":1772384855234,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:07:35.289Z] {"timestamp":1772384855235,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/ArticleDetail.tsx"],"stack":null}
+[2026-03-01T17:07:57.247Z] {"timestamp":1772384875495,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:07:57.247Z] {"timestamp":1772384875496,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384976602,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384976603,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384976773,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/About.tsx"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384976773,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384976931,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Formations.tsx"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384976933,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384977133,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Campus.tsx"],"stack":null}
+[2026-03-01T17:09:37.313Z] {"timestamp":1772384977133,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977314,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Contact.tsx"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977314,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977550,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Galerie.tsx"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977550,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977794,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Actualites.tsx"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977795,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977888,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:09:39.247Z] {"timestamp":1772384977889,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/ArticleDetail.tsx"],"stack":null}
+[2026-03-01T17:11:01.247Z] {"timestamp":1772385060032,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:11:01.247Z] {"timestamp":1772385060032,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:11:11.247Z] {"timestamp":1772385070816,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:11:11.247Z] {"timestamp":1772385070816,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:13:27.249Z] {"timestamp":1772385206020,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:13:27.249Z] {"timestamp":1772385206020,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:13:51.255Z] {"timestamp":1772385230360,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:13:51.255Z] {"timestamp":1772385230361,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:19:05.247Z] {"timestamp":1772385544758,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:19:05.247Z] {"timestamp":1772385544758,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:19:19.248Z] {"timestamp":1772385558711,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:19:19.248Z] {"timestamp":1772385558711,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:19:55.246Z] {"timestamp":1772385593817,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:19:55.246Z] {"timestamp":1772385593817,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:20:33.247Z] {"timestamp":1772385632153,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:20:33.247Z] {"timestamp":1772385632153,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:22:27.254Z] {"timestamp":1772385746685,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:22:27.254Z] {"timestamp":1772385746685,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:23:01.257Z] {"timestamp":1772385779548,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:23:01.257Z] {"timestamp":1772385779548,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:29:07.327Z] {"timestamp":1772386147044,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:29:07.327Z] {"timestamp":1772386147044,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:31:05.255Z] {"timestamp":1772386264204,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:31:05.256Z] {"timestamp":1772386264205,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:32:39.246Z] {"timestamp":1772386357428,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:32:39.246Z] {"timestamp":1772386357429,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:37:57.296Z] {"timestamp":1772386676555,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:37:57.296Z] {"timestamp":1772386676556,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:44:13.247Z] {"timestamp":1772387052602,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:44:13.247Z] {"timestamp":1772387052602,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:44:21.254Z] {"timestamp":1772387060831,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:44:21.254Z] {"timestamp":1772387060831,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:46:25.248Z] {"timestamp":1772387183992,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:46:25.248Z] {"timestamp":1772387183992,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:47:15.244Z] {"timestamp":1772387233300,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:47:15.244Z] {"timestamp":1772387233300,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:50:07.245Z] {"timestamp":1772387405696,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:50:07.245Z] {"timestamp":1772387405696,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:50:13.167Z] {"timestamp":1772387411160,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T17:50:13.167Z] {"timestamp":1772387411164,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T17:50:13.167Z] {"timestamp":1772387411265,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T17:50:13.167Z] {"timestamp":1772387411301,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T17:50:13.167Z] {"timestamp":1772387411301,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T17:50:13.167Z] {"timestamp":1772387411301,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T17:50:13.167Z] {"timestamp":1772387411319,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T17:50:21.878Z] {"timestamp":1772387419875,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T17:50:21.878Z] {"timestamp":1772387419881,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T17:50:21.878Z] {"timestamp":1772387419910,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T17:50:21.878Z] {"timestamp":1772387419929,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T17:50:21.878Z] {"timestamp":1772387419929,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T17:50:21.878Z] {"timestamp":1772387419929,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T17:50:21.878Z] {"timestamp":1772387419936,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T17:50:23.879Z] {"timestamp":1772387423609,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:50:23.879Z] {"timestamp":1772387423609,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:50:27.737Z] {"timestamp":1772387425733,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T17:50:27.737Z] {"timestamp":1772387425739,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T17:50:27.737Z] {"timestamp":1772387425764,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T17:50:27.737Z] {"timestamp":1772387425780,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T17:50:27.737Z] {"timestamp":1772387425781,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T17:50:27.737Z] {"timestamp":1772387425781,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T17:50:27.737Z] {"timestamp":1772387425791,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T17:54:35.324Z] {"timestamp":1772387626378,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:54:35.324Z] {"timestamp":1772387626379,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:54:35.324Z] {"timestamp":1772387636804,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:54:35.324Z] {"timestamp":1772387636804,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:55:31.778Z] {"timestamp":1772387727692,"level":"LOG","args":["[vite] server connection lost. Polling for restart..."],"stack":null}
+[2026-03-01T17:55:34.421Z] {"timestamp":1772387732413,"level":"DEBUG","args":["[Manus] Debug collector initialized (no rrweb, UI events only)"],"stack":null}
+[2026-03-01T17:55:34.421Z] {"timestamp":1772387732426,"level":"DEBUG","args":["[vite] connected."],"stack":null}
+[2026-03-01T17:55:34.421Z] {"timestamp":1772387733320,"level":"INFO","args":["%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools","font-weight:bold"],"stack":null}
+[2026-03-01T17:55:34.421Z] {"timestamp":1772387733355,"level":"LOG","args":["🔧 main.tsx loaded"],"stack":null}
+[2026-03-01T17:55:34.421Z] {"timestamp":1772387733355,"level":"LOG","args":["📦 Root element:",{}],"stack":null}
+[2026-03-01T17:55:34.421Z] {"timestamp":1772387733355,"level":"LOG","args":["🎨 Rendering App..."],"stack":null}
+[2026-03-01T17:55:34.421Z] {"timestamp":1772387733369,"level":"LOG","args":["🚀 App component loaded"],"stack":null}
+[2026-03-01T17:58:54.416Z] {"timestamp":1772387932726,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:58:54.416Z] {"timestamp":1772387932726,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}
+[2026-03-01T17:59:02.420Z] {"timestamp":1772387941533,"level":"DEBUG","args":["[vite]","hot updated: /src/pages/Home.tsx"],"stack":null}
+[2026-03-01T17:59:02.421Z] {"timestamp":1772387941533,"level":"DEBUG","args":["[vite]","hot updated: /src/index.css"],"stack":null}

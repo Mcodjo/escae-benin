@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ESCAE Bénin - Gallery Lightbox</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#004bad",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1823",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 overflow-hidden relative min-h-screen">
+<!-- Main Content Background (Simulated background page content) -->
+<div class="absolute inset-0 z-0 overflow-y-auto filter blur-sm opacity-50 pointer-events-none">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-10 py-3">
+<div class="flex items-center gap-4">
+<h2 class="text-slate-900 dark:text-white text-lg font-bold">Gallery View</h2>
+</div>
+</header>
+<div class="grid grid-cols-3 gap-4 p-4">
+<!-- Placeholder Grid Items -->
+<div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+<div class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-lg"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Lightbox Modal Overlay -->
+<div class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black/95 backdrop-blur-sm transition-opacity duration-300">
+<!-- Close Button -->
+<button class="absolute top-6 right-6 z-50 flex items-center justify-center w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white transition-colors duration-200 focus:outline-none ring-offset-2 focus:ring-2 ring-primary/50">
+<span class="material-symbols-outlined text-2xl">close</span>
+</button>
+<!-- Main Content Wrapper -->
+<div class="relative w-full h-full flex items-center justify-center p-4 md:p-12">
+<!-- Previous Button -->
+<button class="absolute left-4 md:left-8 z-40 p-4 rounded-full text-white/50 hover:text-white hover:bg-white/10 transition-all duration-300 focus:outline-none">
+<span class="material-symbols-outlined text-4xl md:text-5xl">chevron_left</span>
+</button>
+<!-- Image Container -->
+<div class="relative flex flex-col items-center max-w-5xl w-full max-h-[90vh]">
+<!-- Main Image -->
+<div class="relative w-auto h-auto max-h-[75vh] overflow-hidden rounded-[12px] shadow-2xl ring-1 ring-white/10 group">
+<img alt="Graduation ceremony group photo" class="w-full h-full object-contain max-h-[75vh] bg-slate-900" data-alt="University graduates throwing caps in air" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuGvtQZZsL65Tuxvk1fBtzzaOuGHLigzJYm7oJRuFr6PVuukq7A0P8dGX8i9rv9M4zF1zlJfRK_kVVMUxrSQ8fZbcT_GGPA0v0wpl6zduAo0R11udD0fwf6BaVKufhUdaK3w59QRkqT-BpJ7xLmRWw7O8wrdKckcqeu2b1Xvv7vkIg-wjGHZ-aV9lN48Bh-KssQSpaENx7buAaJamGsvqCfrgExxoCzDzJb7E7h3IaTi_eKaPfQyeYL6HNrWH9x9JAhdNRpnSHLMdX"/>
+<!-- Hover Action Overlay (Download/Share) -->
+<div class="absolute top-4 right-4 flex gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+<button class="flex items-center justify-center w-10 h-10 rounded-full bg-black/40 hover:bg-black/60 text-white backdrop-blur-md transition-colors">
+<span class="material-symbols-outlined text-xl">download</span>
+</button>
+<button class="flex items-center justify-center w-10 h-10 rounded-full bg-black/40 hover:bg-black/60 text-white backdrop-blur-md transition-colors">
+<span class="material-symbols-outlined text-xl">share</span>
+</button>
+</div>
+</div>
+<!-- Caption Area -->
+<div class="mt-6 w-full flex flex-col md:flex-row md:items-center justify-between gap-4 text-white">
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-3">
+<span class="px-3 py-1 rounded-full text-xs font-semibold bg-primary text-white tracking-wide uppercase">Academic Excellence</span>
+<span class="text-white/60 text-sm font-light flex items-center gap-1">
+<span class="material-symbols-outlined text-base">calendar_today</span>
+                                October 14, 2023
+                            </span>
+</div>
+<h3 class="text-2xl md:text-3xl font-serif font-medium tracking-tight">Class of 2023 Graduation Ceremony</h3>
+<p class="text-white/70 text-sm max-w-2xl font-light">
+                            Students celebrating their achievements at the main campus auditorium. A moment of pride for ESCAE Bénin.
+                        </p>
+</div>
+<!-- Image Counter -->
+<div class="flex items-center gap-2 text-white/50 text-sm font-medium self-end md:self-center bg-white/5 px-4 py-2 rounded-full border border-white/10">
+<span class="text-white">03</span>
+<span>/</span>
+<span>24</span>
+</div>
+</div>
+</div>
+<!-- Next Button -->
+<button class="absolute right-4 md:right-8 z-40 p-4 rounded-full text-white/50 hover:text-white hover:bg-white/10 transition-all duration-300 focus:outline-none">
+<span class="material-symbols-outlined text-4xl md:text-5xl">chevron_right</span>
+</button>
+</div>
+<!-- Thumbnails Strip (Optional for context) -->
+<div class="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-black/80 to-transparent z-30 pointer-events-none"></div>
+</div>
+</body></html>

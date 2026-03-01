@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ESCAE University News Hub</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Manrope:wght@400;500;700&amp;family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#004bad", // Royal Blue
+                        "gold": "#D4AF37", // Added for the requested gold accents
+                        "background-light": "#FAFAF8", // Updated to match request
+                        "background-dark": "#0f1823",
+                        "surface": "#FFFFFF",
+                        "surface-dark": "#1a2634",
+                    },
+                    fontFamily: {
+                        "display": ["Outfit", "sans-serif"],
+                        "serif": ["Cormorant Garamond", "serif"],
+                        "body": ["Outfit", "sans-serif"],
+                    },
+                    borderRadius: {"DEFAULT": "1rem", "lg": "1.5rem", "xl": "2rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .font-serif-italic {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+        }
+        .text-shadow-sm {
+            text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-body antialiased min-h-screen flex flex-col">
+<!-- Header -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 bg-surface/90 dark:bg-surface-dark/90 backdrop-blur-md px-6 py-4 lg:px-12">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-primary dark:text-white">
+<div class="size-8 flex items-center justify-center rounded bg-primary text-white">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-xl font-bold leading-tight tracking-tight font-display">ESCAE News</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-gold text-sm font-semibold transition-colors" href="#">Home</a>
+<a class="text-primary dark:text-gold text-sm font-bold" href="#">News</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-gold text-sm font-semibold transition-colors" href="#">Events</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-gold text-sm font-semibold transition-colors" href="#">Admissions</a>
+<a class="text-slate-600 dark:text-slate-300 hover:text-primary dark:hover:text-gold text-sm font-semibold transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex min-w-[120px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-6 bg-primary hover:bg-blue-800 text-white text-sm font-bold transition-all shadow-md hover:shadow-lg">
+<span class="truncate font-display">Apply Now</span>
+</button>
+<button class="lg:hidden p-2 text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-grow flex flex-col w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12 py-8 gap-12">
+<!-- Hero Section -->
+<section class="relative w-full rounded-xl overflow-hidden min-h-[420px] flex items-center justify-center bg-gradient-to-br from-[#001F5B] to-[#004AAD] shadow-xl group">
+<!-- Subtle Overlay Pattern -->
+<div class="absolute inset-0 opacity-10 mix-blend-overlay" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 20px 20px;"></div>
+<div class="relative z-10 flex flex-col items-center justify-center text-center px-4 max-w-4xl gap-6">
+<span class="inline-block px-4 py-1 rounded-full border border-gold/40 bg-gold/10 text-gold text-xs font-bold uppercase tracking-wider backdrop-blur-sm">
+                    Restez Informé
+                </span>
+<h1 class="text-white text-5xl md:text-7xl font-display font-bold leading-tight tracking-tight">
+                    Nos <span class="font-serif-italic text-gold block sm:inline">Actualités</span>
+</h1>
+<p class="text-slate-200 text-lg md:text-xl font-light max-w-2xl leading-relaxed">
+                    Découvrez les dernières innovations, les réussites étudiantes et les événements marquants de l'université ESCAE.
+                </p>
+<div class="flex w-full max-w-md mt-4">
+<label class="relative flex w-full items-center">
+<span class="absolute left-4 text-primary">
+<span class="material-symbols-outlined">search</span>
+</span>
+<input class="w-full h-12 rounded-full pl-12 pr-32 bg-white/95 backdrop-blur text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-gold border-none shadow-lg text-sm font-medium" placeholder="Rechercher une actualité..." type="text"/>
+<button class="absolute right-1 top-1 bottom-1 px-5 rounded-full bg-primary hover:bg-blue-800 text-white text-sm font-bold transition-colors">
+                            Search
+                        </button>
+</label>
+</div>
+</div>
+<!-- Abstract shapes for visual interest -->
+<div class="absolute -bottom-24 -left-24 w-64 h-64 bg-primary/30 rounded-full blur-3xl"></div>
+<div class="absolute -top-24 -right-24 w-80 h-80 bg-gold/20 rounded-full blur-3xl"></div>
+</section>
+<!-- Filter Chips -->
+<section class="flex flex-wrap items-center gap-3 py-2 overflow-x-auto no-scrollbar">
+<button class="px-5 py-2 rounded-full bg-primary text-white text-sm font-bold shadow-md transition-transform hover:scale-105 whitespace-nowrap">All News</button>
+<button class="px-5 py-2 rounded-full bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary dark:hover:text-white text-sm font-medium transition-all whitespace-nowrap">Events</button>
+<button class="px-5 py-2 rounded-full bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary dark:hover:text-white text-sm font-medium transition-all whitespace-nowrap">Academic</button>
+<button class="px-5 py-2 rounded-full bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary dark:hover:text-white text-sm font-medium transition-all whitespace-nowrap">Partnerships</button>
+<button class="px-5 py-2 rounded-full bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary dark:hover:text-white text-sm font-medium transition-all whitespace-nowrap">Students Life</button>
+<button class="px-5 py-2 rounded-full bg-white dark:bg-surface-dark border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary hover:text-primary dark:hover:text-white text-sm font-medium transition-all whitespace-nowrap">Research</button>
+</section>
+<!-- Featured Stories Section -->
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+<!-- Featured Card 1 -->
+<div class="relative group overflow-hidden rounded-xl aspect-[16/10] lg:aspect-[16/9] shadow-lg cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Modern conference hall with attendees" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAaMahxlrJNGUPgf3RuR0h1wpUeZ9uf-2VBJWnaNn7ijUtL8Tw98_FtZSxIa0m0bzcELSX_WfRve-gFbQt65Uz-NgIkQvj0y5JVhrPRq0X8278MydzAxaJF9f65E1K9KQJP1nZtI4jDFol72m3DA7w0IbCrzruBnseNE-qzir_7YOZYlRtGQdfDmb-K-p4LFQgJfT8GFdIl-_zjIs8o0UMvjlVrBXJIIx3dIzQU0UkDvLDrCbJHAc07Lvd94CorljuPSmBmmMWkmgM');">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded bg-gold text-slate-900 text-xs font-bold uppercase tracking-wide shadow-sm">
+<span class="material-symbols-outlined text-[14px]">event</span>
+                        Event
+                    </span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 md:p-8 flex flex-col gap-3">
+<p class="text-gold font-serif-italic text-lg md:text-xl">Featured Story</p>
+<h3 class="text-white text-2xl md:text-4xl font-serif font-bold leading-tight">AFRIA 2024: Shaping the Future of AI in Africa</h3>
+<p class="text-slate-200 line-clamp-2 text-sm md:text-base font-light max-w-lg">
+                        Join us for the biggest artificial intelligence conference in the region, hosted right here at ESCAE. Leading experts from across the continent will gather.
+                    </p>
+<div class="flex items-center gap-2 text-white font-bold text-sm mt-2 group-hover:translate-x-2 transition-transform">
+                        Read Full Story 
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Featured Card 2 -->
+<div class="relative group overflow-hidden rounded-xl aspect-[16/10] lg:aspect-[16/9] shadow-lg cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="Students celebrating graduation outdoors" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBu6lmgDWw2LDEwRhAK8Y8GAY6SGWQ70rGZ07VmGKdz5UqNkcuTsrd1KYtkfLAAHbc8l_ThgOTyHgMtaR6I12-opbHM43dti7ga6UD7HDbRyOBcdaVEThGUJxXe4s559I2lxEtAv7J2qDEk1095HZSjN43g4umLrSMvyGaf8pzpVUhCAM98hoIAWeeY_WJbmHSQLNPygA7DNH84yNUD64lhyDyzA30ophkY2jVrAnSVwy9lC1nPW66PREty7DFbzHh7nEa--DPEsbg');">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded bg-gold text-slate-900 text-xs font-bold uppercase tracking-wide shadow-sm">
+<span class="material-symbols-outlined text-[14px]">school</span>
+                        Culture
+                    </span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 md:p-8 flex flex-col gap-3">
+<p class="text-gold font-serif-italic text-lg md:text-xl">Campus Life</p>
+<h3 class="text-white text-2xl md:text-4xl font-serif font-bold leading-tight">English Day Celebration</h3>
+<p class="text-slate-200 line-clamp-2 text-sm md:text-base font-light max-w-lg">
+                         A vibrant showcase of linguistic talent and cultural exchange organized by the Department of Languages. Experience the diversity of our student body.
+                    </p>
+<div class="flex items-center gap-2 text-white font-bold text-sm mt-2 group-hover:translate-x-2 transition-transform">
+                        View Gallery
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</section>
+<!-- News Grid -->
+<section class="flex flex-col gap-6">
+<h2 class="text-3xl font-serif font-bold text-slate-900 dark:text-white border-l-4 border-gold pl-4">Latest Updates</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+<!-- News Card 1 -->
+<article class="flex flex-col bg-surface dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 dark:border-slate-800">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Professor giving a lecture in a modern classroom" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD-4iNWtecbO-vmV7_fEgnjxEuBBjX_riZ2FMjNNqdXamZ8rRdZ6pgioQTyVeWZDKnimXsT_88kJLbpPsYZ6Xe3WjzvESYBL5oyq6mzjp9WVH7A1L1ZS172rQuQ3MzOjXi6oCYQ021myP13Z0oQneQnw_bDcztCPp4wzZcj8f7ibXhyp2pyVoydOVXBxyzfYaFT1RNS8B4oSp7kVDcKuXBgcpQhDqXZwXJ3Zb-EdqjKljg8M-BDhTEscRQbD0XlKMPojw3sL7lceqc');"></div>
+<div class="p-6 flex flex-col flex-grow gap-3">
+<div class="flex items-center justify-between">
+<span class="text-primary dark:text-gold text-xs font-bold tracking-wider uppercase">Académique</span>
+<span class="text-slate-400 text-xs font-medium">Oct 12, 2024</span>
+</div>
+<h4 class="text-slate-900 dark:text-white text-xl font-bold font-display leading-tight hover:text-primary transition-colors cursor-pointer">
+                            New Master's Program in Data Science Launched
+                        </h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 leading-relaxed">
+                            ESCAE expands its academic offerings with a cutting-edge curriculum designed to prepare students for the data-driven economy.
+                        </p>
+<a class="mt-auto pt-4 text-primary dark:text-gold text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all" href="#">
+                            Read more <span class="material-symbols-outlined text-sm">arrow_right_alt</span>
+</a>
+</div>
+</article>
+<!-- News Card 2 -->
+<article class="flex flex-col bg-surface dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 dark:border-slate-800">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Group of business professionals shaking hands" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBUSUAW6BkamRWCrdKl_O6MXORkX3v_iPPwk9XTl94jOnSDt48DwJZDcTbGkvGdSSfsi0mHxFkI9K3n-0iTzIHJzUfbXZVl5armoxcsbW8wz4S2VfQmrbO99AVP2qyc3fXVEKxcSIp-6_yl9j0nFUEjp3-g0JhiLgESBKuft0XlHjJAeDHA9_2nhaazUJ3nB66UQDp9QM1BBlgLliIkS8rmDma7GAm2nqp3-rosns_V-DASc8OFA3nhcjWQbvJ5ylPdJoelxAz8hfQ');"></div>
+<div class="p-6 flex flex-col flex-grow gap-3">
+<div class="flex items-center justify-between">
+<span class="text-emerald-600 dark:text-emerald-400 text-xs font-bold tracking-wider uppercase">Partenariat</span>
+<span class="text-slate-400 text-xs font-medium">Sep 28, 2024</span>
+</div>
+<h4 class="text-slate-900 dark:text-white text-xl font-bold font-display leading-tight hover:text-primary transition-colors cursor-pointer">
+                            Strategic Alliance with Tech Giants for Internships
+                        </h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 leading-relaxed">
+                            A landmark agreement ensuring our top graduates secure placements at leading technology firms across West Africa.
+                        </p>
+<a class="mt-auto pt-4 text-primary dark:text-gold text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all" href="#">
+                            Read more <span class="material-symbols-outlined text-sm">arrow_right_alt</span>
+</a>
+</div>
+</article>
+<!-- News Card 3 -->
+<article class="flex flex-col bg-surface dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 dark:border-slate-800">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Students working together in library" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCqoYho18bwKC9niC4isDCumgTZYg3hidTU2-_rlhd-mwawz1y-MuXxl5PPawHhd101ru5DdB6EMe3YovW9INi5A-k6jfZmCgkZxSjZuaVLM75vauU6LEazVgLeURdSCbUT6xpH53fZvBNK4WzByFHOW_nznzWQgDyCsMBVKqcMljGmiBSZSp1iw_iI_YJW_8H8QBTAMF7jvhrlM7O_OwdhANwDdzfIbbq8ty0BGpOgIlDOgL16Tmi5OT1YhNx20SlAKs0Q_ilGsDI');"></div>
+<div class="p-6 flex flex-col flex-grow gap-3">
+<div class="flex items-center justify-between">
+<span class="text-purple-600 dark:text-purple-400 text-xs font-bold tracking-wider uppercase">Étudiants</span>
+<span class="text-slate-400 text-xs font-medium">Sep 15, 2024</span>
+</div>
+<h4 class="text-slate-900 dark:text-white text-xl font-bold font-display leading-tight hover:text-primary transition-colors cursor-pointer">
+                            Student Innovation Hub Opens Next Week
+                        </h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 leading-relaxed">
+                            The new facility provides 24/7 access to 3D printers, high-end workstations, and collaborative spaces for student entrepreneurs.
+                        </p>
+<a class="mt-auto pt-4 text-primary dark:text-gold text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all" href="#">
+                            Read more <span class="material-symbols-outlined text-sm">arrow_right_alt</span>
+</a>
+</div>
+</article>
+<!-- News Card 4 -->
+<article class="flex flex-col bg-surface dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 dark:border-slate-800">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Sports team celebrating victory" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDoCQXEGPpuIaCUj2ymHJo38Pao-FVt2nElwtHJs-az8Pv5tAqWCORRHUuJ4vn5W9hDB9zOCjIquQGmIU4y2wLLdv5bpmek7KxLX5yFbMzyEeKyI8iGySPzuVcRvNKW-lFy3BsA4BRGo4wwdIawlRzlLlXJLzNZPr0SEiklpwFaqYMGBIjbK_-CRryHj6QffAEJ5bRSLXhdmMoY_Mn3QW5cJ7I2rE3pyVzTdcURwT2FYFzjJsYQ5mzldbO3wzzAdqW-Ofh8gNqL9f8');"></div>
+<div class="p-6 flex flex-col flex-grow gap-3">
+<div class="flex items-center justify-between">
+<span class="text-orange-600 dark:text-orange-400 text-xs font-bold tracking-wider uppercase">Sport</span>
+<span class="text-slate-400 text-xs font-medium">Aug 30, 2024</span>
+</div>
+<h4 class="text-slate-900 dark:text-white text-xl font-bold font-display leading-tight hover:text-primary transition-colors cursor-pointer">
+                            ESCAE Lions Win Regional Championship
+                        </h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 leading-relaxed">
+                            Our university football team brings home the trophy after a thrilling final match against University of Lagos.
+                        </p>
+<a class="mt-auto pt-4 text-primary dark:text-gold text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all" href="#">
+                            Read more <span class="material-symbols-outlined text-sm">arrow_right_alt</span>
+</a>
+</div>
+</article>
+<!-- News Card 5 -->
+<article class="flex flex-col bg-surface dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 dark:border-slate-800">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Architecture of the new university wing" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBmE8vqUdchXkt2Dv_YWGdAs2Fx1vxm6Av1HUMoyttBTC-y42_lq13Rz0kLCn15kD_Tn-EPhdwXeqW5sI1iSGTEXH5HgUB6fudS4aYKFlPC5Y2DnJa7uBdtzVpf6i5rNAMuKI3JMJolI6P4isO1r7E7Yb0OHMXJjEn5AIGuvope8F3Pmq8uNHVYtSY0j0lKHdXeUyUYr0yjQG2w6dY83uveX51yuFlybPczHV85hXvRcoFGPBOqlKJd28pL8DMWiXfPZ0bnu2qvsfE');"></div>
+<div class="p-6 flex flex-col flex-grow gap-3">
+<div class="flex items-center justify-between">
+<span class="text-primary dark:text-gold text-xs font-bold tracking-wider uppercase">Campus</span>
+<span class="text-slate-400 text-xs font-medium">Aug 22, 2024</span>
+</div>
+<h4 class="text-slate-900 dark:text-white text-xl font-bold font-display leading-tight hover:text-primary transition-colors cursor-pointer">
+                            Campus Expansion Project: Phase 2 Begins
+                        </h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 leading-relaxed">
+                            Construction starts on the new Bio-Research laboratory and the extended student dormitory complex.
+                        </p>
+<a class="mt-auto pt-4 text-primary dark:text-gold text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all" href="#">
+                            Read more <span class="material-symbols-outlined text-sm">arrow_right_alt</span>
+</a>
+</div>
+</article>
+<!-- News Card 6 -->
+<article class="flex flex-col bg-surface dark:bg-surface-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 border border-slate-100 dark:border-slate-800">
+<div class="h-48 w-full bg-cover bg-center" data-alt="Diverse group of students in discussion" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA_MWZAYVxJomw3Mu7Dbk9SzNy_JNWO0gXeMHVprStnnVqOv-wjERXD6VOIp_ZHRYbMnMcKvNlm5ND1wYmFR0pPKSxW3Nyo5qS-WuucusTuVrcp3V6aSOC5TxPxJfVuA7Sp3PmtQlE2OdF1JCyr6bqaCxAXHZeXX_Wz31189ZlmlWdlblDPFrPdvx3IZlNLL6SVihxjeG-vzV_5ew-fpFOIIrorMK6rDg3Hrrucftt-vmMiIOsshXv9cyHtZeNu9ITFozW8Cx9vysU');"></div>
+<div class="p-6 flex flex-col flex-grow gap-3">
+<div class="flex items-center justify-between">
+<span class="text-blue-500 dark:text-blue-300 text-xs font-bold tracking-wider uppercase">Alumni</span>
+<span class="text-slate-400 text-xs font-medium">Jul 10, 2024</span>
+</div>
+<h4 class="text-slate-900 dark:text-white text-xl font-bold font-display leading-tight hover:text-primary transition-colors cursor-pointer">
+                            Alumni Spotlight: Sarah Doe's Journey to CEO
+                        </h4>
+<p class="text-slate-600 dark:text-slate-400 text-sm line-clamp-3 leading-relaxed">
+                            From an ESCAE classroom to leading one of the fastest-growing fintech startups in Nigeria. Read her inspiring story.
+                        </p>
+<a class="mt-auto pt-4 text-primary dark:text-gold text-sm font-bold flex items-center gap-1 hover:gap-2 transition-all" href="#">
+                            Read more <span class="material-symbols-outlined text-sm">arrow_right_alt</span>
+</a>
+</div>
+</article>
+</div>
+<div class="flex justify-center mt-8">
+<button class="flex items-center justify-center gap-2 px-8 py-3 rounded-full border border-slate-300 dark:border-slate-600 hover:border-primary text-slate-700 dark:text-slate-300 hover:text-primary dark:hover:text-white bg-transparent hover:bg-white dark:hover:bg-slate-800 transition-all font-semibold">
+                    View More News
+                    <span class="material-symbols-outlined text-lg">expand_more</span>
+</button>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="mt-12 bg-surface dark:bg-surface-dark border-t border-slate-200 dark:border-slate-800 py-12 px-6 lg:px-12">
+<div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col gap-2">
+<div class="flex items-center gap-3 text-primary dark:text-white">
+<div class="size-6 flex items-center justify-center rounded bg-primary text-white">
+<span class="material-symbols-outlined text-lg">school</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold font-display">ESCAE University</h2>
+</div>
+<p class="text-slate-500 text-sm">© 2024 ESCAE University. All rights reserved.</p>
+</div>
+<div class="flex gap-6">
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="sr-only">Facebook</span>FB</a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="sr-only">Twitter</span>TW</a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="sr-only">Instagram</span>IG</a>
+<a class="text-slate-500 hover:text-primary transition-colors" href="#"><span class="sr-only">LinkedIn</span>LI</a>
+</div>
+</div>
+</footer>
+</body></html>

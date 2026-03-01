@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#004bad",
+                        "background-light": "#f5f7f8",
+                        "background-dark": "#0f1823",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .italic-accent { font-style: italic; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<div class="relative flex min-h-screen w-full flex-col max-w-[430px] mx-auto bg-white dark:bg-background-dark shadow-2xl overflow-x-hidden">
+<!-- Header Section -->
+<header class="sticky top-0 z-50 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800 px-4 py-4">
+<div class="flex items-center justify-between">
+<button class="flex items-center justify-center size-10 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-primary">arrow_back_ios_new</span>
+</button>
+<div class="flex flex-col items-center">
+<span class="text-[10px] uppercase tracking-widest font-bold text-primary/60">ESCAE BÉNIN</span>
+<h1 class="text-lg font-extrabold text-primary italic-accent">Nos Infrastructures</h1>
+</div>
+<button class="flex items-center justify-center size-10 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-primary">info</span>
+</button>
+</div>
+</header>
+<!-- Hero image or decorative element -->
+<div class="px-4 pt-6 pb-2">
+<div class="relative h-40 w-full rounded-xl overflow-hidden shadow-lg mb-6 bg-primary/10">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
+<img alt="Modern university campus building" class="w-full h-full object-cover mix-blend-overlay" data-alt="Modern university campus architecture building with glass windows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhbdLn8mT34I0spY1FA0Qnk-HvqXN3tSSPCiBU7RxlPdmAZ3zl08RkFfrs7-PC9XytX3ShUAHUjfmVZb1t5_y0tOAuuM0AZjiarVsjc4ILLncFCR5ux7wTRtu0taaqguo5j8du7nyhwl6J80kEDM12BIDHM1OBgRfOe6G2PZzKy6RAoXka-lvwrkv6tA5YZnHiXBxy_B1rsUvIehvqMbB_c6f6xiFGA4OejPTD-Bxj22ZtxQZzcUBQjyunn6TSE13CK0g0gvT_OsnV"/>
+<div class="absolute bottom-4 left-4 right-4">
+<p class="text-white text-sm font-semibold drop-shadow-md">Un cadre d'apprentissage d'excellence au cœur de Cotonou.</p>
+</div>
+</div>
+</div>
+<!-- Infrastructure Grid -->
+<main class="flex-1 px-4 pb-24">
+<div class="grid grid-cols-2 gap-4">
+<!-- Library - Blue -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 p-4 transition-all hover:shadow-md">
+<div class="flex size-12 items-center justify-center rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-sm font-bold leading-tight">Bibliothèque</h2>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-medium">Accès illimité aux ressources</p>
+</div>
+</div>
+<!-- Wi-Fi - Green -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 p-4 transition-all hover:shadow-md">
+<div class="flex size-12 items-center justify-center rounded-lg bg-emerald-100 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400">
+<span class="material-symbols-outlined text-3xl">wifi</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-sm font-bold leading-tight">Wi-Fi Campus</h2>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-medium">Haut débit 24/7 disponible</p>
+</div>
+</div>
+<!-- Amphitheaters - Gold -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 p-4 transition-all hover:shadow-md">
+<div class="flex size-12 items-center justify-center rounded-lg bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400">
+<span class="material-symbols-outlined text-3xl">co_present</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-sm font-bold leading-tight">Amphithéâtres</h2>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-medium">Salles multimédia modernes</p>
+</div>
+</div>
+<!-- Lounge - Red -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 p-4 transition-all hover:shadow-md">
+<div class="flex size-12 items-center justify-center rounded-lg bg-rose-100 dark:bg-rose-900/30 text-rose-600 dark:text-rose-400">
+<span class="material-symbols-outlined text-3xl">coffee</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-sm font-bold leading-tight">Espace Détente</h2>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-medium">Lounge étudiant convivial</p>
+</div>
+</div>
+<!-- Labs - Blue -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 p-4 transition-all hover:shadow-md">
+<div class="flex size-12 items-center justify-center rounded-lg bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400">
+<span class="material-symbols-outlined text-3xl">biotech</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-sm font-bold leading-tight">Laboratoires</h2>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-medium">Recherche &amp; informatique</p>
+</div>
+</div>
+<!-- Sports - Green -->
+<div class="flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 p-4 transition-all hover:shadow-md">
+<div class="flex size-12 items-center justify-center rounded-lg bg-teal-100 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400">
+<span class="material-symbols-outlined text-3xl">sports_soccer</span>
+</div>
+<div class="flex flex-col gap-1">
+<h2 class="text-sm font-bold leading-tight">Complexe Sportif</h2>
+<p class="text-slate-500 dark:text-slate-400 text-xs font-medium">Terrains multisports</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-1/2 -translate-x-1/2 w-full max-w-[430px] border-t border-slate-200 dark:border-slate-800 bg-white/95 dark:bg-background-dark/95 backdrop-blur-md px-4 pb-6 pt-2">
+<div class="flex justify-between items-center">
+<a class="flex flex-1 flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">home</span>
+<p class="text-[10px] font-bold">Accueil</p>
+</a>
+<a class="flex flex-1 flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">apartment</span>
+<p class="text-[10px] font-bold">Campus</p>
+</a>
+<a class="flex flex-1 flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">newspaper</span>
+<p class="text-[10px] font-bold">Actualités</p>
+</a>
+<a class="flex flex-1 flex-col items-center gap-1 text-slate-400 dark:text-slate-500" href="#">
+<span class="material-symbols-outlined">person</span>
+<p class="text-[10px] font-bold">Profil</p>
+</a>
+</div>
+</nav>
+</div>
+</body></html>

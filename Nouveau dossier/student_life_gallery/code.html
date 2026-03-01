@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#004bad",
+                        "background-light": "#FAFAF8",
+                        "background-dark": "#0f1823",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Student Life Gallery - ESCAE Bénin</title>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col max-w-[430px] mx-auto bg-background-light dark:bg-background-dark shadow-2xl overflow-x-hidden">
+<!-- Header -->
+<header class="sticky top-0 z-10 flex items-center bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md px-4 py-4 border-b border-primary/10">
+<div class="flex size-10 shrink-0 items-center justify-center rounded-full hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-slate-900 dark:text-slate-100">arrow_back_ios_new</span>
+</div>
+<h1 class="flex-1 text-center text-lg font-extrabold tracking-tight text-slate-900 dark:text-slate-100">Vie Estudiantine</h1>
+<div class="flex size-10 items-center justify-end">
+<button class="flex items-center justify-center rounded-full size-10 hover:bg-primary/10 transition-colors">
+<span class="material-symbols-outlined text-slate-900 dark:text-slate-100">search</span>
+</button>
+</div>
+</header>
+<!-- Intro Section -->
+<div class="px-6 pt-6 pb-2">
+<h2 class="text-primary text-xs font-extrabold uppercase tracking-widest mb-1">Campus ESCAE</h2>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">Découvrez l'énergie et la diversité de notre communauté à travers les moments forts de l'année.</p>
+</div>
+<!-- Filter Tags (Optional but adds to "Gallery" feel) -->
+<div class="flex gap-2 overflow-x-auto px-6 py-4 no-scrollbar">
+<span class="whitespace-nowrap rounded-full bg-primary px-4 py-1.5 text-xs font-bold text-white">Tout</span>
+<span class="whitespace-nowrap rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold text-primary">Sports</span>
+<span class="whitespace-nowrap rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold text-primary">Culture</span>
+<span class="whitespace-nowrap rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold text-primary">Clubs</span>
+<span class="whitespace-nowrap rounded-full bg-primary/10 px-4 py-1.5 text-xs font-bold text-primary">Events</span>
+</div>
+<!-- Gallery Grid -->
+<main class="flex-1 px-4 py-2">
+<div class="grid grid-cols-2 gap-3">
+<!-- Large Feature Item -->
+<div class="col-span-2 relative group overflow-hidden rounded-xl aspect-[16/10] bg-slate-200">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Group of diverse students laughing on campus" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCroOU9JqE4bvTECOE8UnkrfnNfy0p7dpcQdOwygxAseJhYV60ud2hgC4-zfRV_K3lQjgRBN1sJ2A_c6EPRE46sb2lhvIsNvmaETkRAtDabT_vJshTQpN0OumV-zJVF0h6qOW5J7v-ti8GZYXF5cZBcRhEjtZjnCr30DJ8JexLoaZ8KmMmsY6CB21x6VL8t0Nb726fOuOtAMreFWj68pMn7HroK0p-gmIkLr_6RX6x20ROEnnxK0E2tX80TxzW4OK0C64fr6NjflCjf');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-4 left-4">
+<span class="bg-white/20 backdrop-blur-md text-white text-[10px] font-bold px-2 py-0.5 rounded uppercase">Featured</span>
+<h3 class="text-white font-bold text-sm mt-1">Cérémonie de Bienvenue 2024</h3>
+</div>
+</div>
+<!-- Grid Items -->
+<div class="flex flex-col gap-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl shadow-sm border border-primary/5" data-alt="Students studying in a modern campus library" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCmokexG5h2BDUllkRErIQjqPPknY98hvKR-SqukzJvam8WvudbIBnzzkzF2EJnqyOJOHcb1eBbch8LadcGaq5JZDnpBYZe6joLu-v_KeK7s0EO_PLmHPANqVoHbre3jbIpG_v0_2Pl6wqz5m_FCKC6mhYpcVlZaHzlpTMQvNKjCYGUhGzilSLPJiKiY1GCGkFt2ZxVJO2BaoHl2F007mwlB-yeppkQjpVkGv1jup9kskkRwyIXklxN4kvfhIn7jB7uWCN-xqQolS-h');"></div>
+<p class="text-[11px] font-semibold text-slate-500 px-1">Bibliothèque Centrale</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl shadow-sm border border-primary/5" data-alt="Students gathering for a festive outdoor event" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCtn8XTdX4ibBHMyyJ1-5UYiinzgicE8ZQ1UfxUoUnA9NGg1xMzaPqejqLfkJu6zEdNVr7jjFqJtfWofeCtQPqhEC4ynhMyxhMu5rj59Ul92cpwOa1dNLiMqo5h1alij-u2rJWe5IXTLAIDzPD-0h_jJf7grdxP30Orm4OmN0OfIHhLExr99_qd9notPtIuxiv75WN17mrdoZtwvrxXZwHA83GWBoavUQpMyjQFN9b0KDIEOxySfURerCCKTYDWw8SPn7EiWwEKOTfM');"></div>
+<p class="text-[11px] font-semibold text-slate-500 px-1">Festival des Cultures</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl shadow-sm border border-primary/5" data-alt="University basketball team in action during a match" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDVi39vhGU3x3o8v8VIEJpiOlxvyLWXaGqYzF29LQRUOXdwDV__H2lvARC1CdICzI2jwBIdP9zKFk1iq4XLTGpPJkUJYZslAG7uap4FhifoLV1ShhVKBzZb5ktklrqX2-3VvVg-sm6mcbHwa2yQzFAPsnXspswFamLb0z3hIx3y2t7hqPOgL-aZhKvSSntVBHek_cgrpRAY0M9myLhm4_dAxLmtaYer0zjR8iu9QgHTf0VovrOpWYqoLnv-f8ZP61za8DnyMkLDVPbg');"></div>
+<p class="text-[11px] font-semibold text-slate-500 px-1">Tournoi Sportif Inter-facs</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl shadow-sm border border-primary/5" data-alt="Student club meeting discussing project plans" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD3MfDjbXKHuZ0qNPikC0rR5PUtQbtMYSQ4wdhsyN5i0Qcx8HXKuclCG5uxRooelKEMALgiZUOjRy24Gu-UWi1awX4DStb1bzQwyw42gsdC2SCoj-MxVsUhqPs-B9JdnMek7KTFVMyWrGDX2OJ_w_G9oSKt6Y3K2-NnffYuGL9vwGgg3fLhBiWGf5bRBTWUsAt3k6A471EQn5YO5pt3i6uN08Yv0kI08c9M-Do-77v_goIR8aa1IldKGbNvRe2DLwWC3Xr8IOGbVvem');"></div>
+<p class="text-[11px] font-semibold text-slate-500 px-1">Club Entrepreneuriat</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl shadow-sm border border-primary/5" data-alt="Professor and students in an interactive classroom setting" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBKgwnUCmM68diIBAaU4k75eadgl9t0F8IHkR5JYTNguTJARPZSz6AqK2rJWc4cCMvKRMdGhfO_flbWz0sdaF_12qJlNpRYz0ryFsBOWWSNnSuXypHoGjbvGQd3L7b73QXT7v3jOyFdpHNpzDm00WMjNyEQ4uXsFx4H0K17Kdq7k6ftVtFRaZP4WSSSARM2wpQB96L1j-vHmgTFaS-V3-9k19TbPn_RJxwVnEZVJfbwg4bMwGksZ8IdVNf_j_Vq1CRgt8nSvt48SNZP');"></div>
+<p class="text-[11px] font-semibold text-slate-500 px-1">Séminaire d'Innovation</p>
+</div>
+<div class="flex flex-col gap-2">
+<div class="w-full aspect-square bg-cover bg-center rounded-xl shadow-sm border border-primary/5" data-alt="Campus greenery and modern architectural buildings" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAfAphWPG1fNpDTmsAO5EkT6hKqhItkTFH_U2uVl2gmfzR1xjDYdp2w8_Efsq6nlKaP3F6n8KB2fzcDBTcsxDoJwpEh6AbINKmIjIFtcf9XpavJf22jbXZ2csZQamFs82ns4hEBKiNFtsSiwHjkdx2uIcrQWdDoRjxlMoDPWGFCP-A5qO-DDgELNDCvhilWACykSre8hhfuAvsXbSHnwmo4YmcUOH4vl-iXP72bbZ56ZDSqxL-WfDGauSqaksj4dnJ9ovIklljKi7Qb');"></div>
+<p class="text-[11px] font-semibold text-slate-500 px-1">Espaces de Détente</p>
+</div>
+</div>
+<!-- CTA Section -->
+<div class="flex flex-col items-center py-10">
+<button class="group flex items-center justify-center gap-2 min-w-[240px] rounded-xl bg-primary px-8 py-4 text-white shadow-lg shadow-primary/20 hover:shadow-primary/30 active:scale-95 transition-all">
+<span class="text-base font-bold">Voir la Galerie Complète</span>
+<span class="material-symbols-outlined text-sm transition-transform group-hover:translate-x-1">arrow_forward</span>
+</button>
+<p class="mt-4 text-[10px] font-medium text-slate-400 uppercase tracking-widest">+500 photos disponibles</p>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="sticky bottom-0 z-20 flex w-full border-t border-primary/10 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md px-4 pb-8 pt-3">
+<a class="flex flex-1 flex-col items-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">home</span>
+<p class="text-[10px] font-bold">Accueil</p>
+</a>
+<a class="flex flex-1 flex-col items-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">school</span>
+<p class="text-[10px] font-bold">Admission</p>
+</a>
+<a class="flex flex-1 flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined font-fill">groups</span>
+<p class="text-[10px] font-bold">Vie Étudiante</p>
+</a>
+<a class="flex flex-1 flex-col items-center gap-1 text-slate-400" href="#">
+<span class="material-symbols-outlined">mail</span>
+<p class="text-[10px] font-bold">Contact</p>
+</a>
+</nav>
+</div>
+<style>
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .font-fill {
+            font-variation-settings: 'FILL' 1;
+        }
+    </style>
+</body></html>

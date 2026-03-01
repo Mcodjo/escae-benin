@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html class="light" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "primary": "#004bad",
+                "accent-gold": "#D4AF37",
+                "background-light": "#f5f7f8",
+                "background-dark": "#0f1823",
+              },
+              fontFamily: {
+                "display": ["Manrope", "sans-serif"],
+                "serif": ["Playfair Display", "serif"]
+              },
+              borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+            },
+          },
+        }
+    </script>
+<style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #001F5B 0%, #004AAD 100%);
+        }
+        .campus-italic {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #D4AF37;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-light dark:bg-background-dark overflow-x-hidden">
+<div class="relative flex min-h-screen flex-col">
+<!-- Header / Navigation Bar -->
+<header class="flex items-center bg-transparent absolute top-0 left-0 w-full p-4 z-20 justify-between">
+<div class="text-white flex size-12 shrink-0 items-center">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center uppercase tracking-widest">ESCAE Bénin</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined text-3xl">account_circle</span>
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative hero-gradient pt-24 pb-32 flex flex-col items-center justify-center text-center px-6 min-h-[85vh]">
+<!-- Subtle Campus Background Image (20% Opacity) -->
+<div class="absolute inset-0 z-0 opacity-20 overflow-hidden">
+<img alt="Modern university campus aerial view" class="w-full h-full object-cover" data-alt="Aerial view of a modern university campus with greenery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMsJszUx_ZOOndIrrPsMvffjkGf7PG8Is6KXHsMBG8l6aJrZRxZfKJAGpL-NjVcQMG_Ge85SsM2hTTuh184H3vf0T6UPW8U-5shJrYCKW_SZNA0kSn4GmM11ie9cDgPbc4-Ux08rbDGz9VFNjp7mEEJku53BSKHBF5YVoUarLG4P1MmNGEq1WXG3XeVRSLPrSPIAFjHZG0t3MfTOpzZJ7x4wrdbCim8ZvPoPDlkB2NxEyYmKKDBMn25-TRXSzjjPK-1WoydLk2lT8E"/>
+</div>
+<!-- Content Container -->
+<div class="relative z-10 max-w-md mx-auto">
+<div class="inline-flex h-8 items-center justify-center gap-x-2 rounded-full bg-[#FFD700] px-6 mb-6">
+<p class="text-[#001F5B] text-xs font-extrabold leading-normal tracking-[0.15em] uppercase">Nos Espaces</p>
+</div>
+<h1 class="text-white tracking-tight text-5xl font-extrabold leading-tight mb-4">
+                    Nos <span class="campus-italic">Campus</span>
+</h1>
+<p class="text-blue-100 text-lg font-light leading-relaxed max-w-sm mx-auto">
+                    Découvrez nos deux sites stratégiques au Bénin, alliant excellence académique et infrastructures modernes pour votre réussite.
+                </p>
+<div class="mt-8 flex justify-center gap-4">
+<button class="bg-accent-gold text-[#001F5B] px-8 py-3 rounded-full font-bold shadow-lg shadow-black/20 hover:scale-105 transition-transform">
+                        Visiter Cotonou
+                    </button>
+</div>
+</div>
+<!-- White Wave Divider -->
+<div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0] transform rotate-180">
+<svg class="relative block w-[calc(100%+1.3px)] h-[80px] fill-background-light dark:fill-background-dark" preserveaspectratio="none" viewbox="0 0 1200 120">
+<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+</svg>
+</div>
+</section>
+<!-- Content Section Start -->
+<main class="flex-1 bg-background-light dark:bg-background-dark px-6 py-12">
+<div class="grid grid-cols-1 gap-8">
+<!-- Location Card Example -->
+<div class="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-sm border border-slate-200 dark:border-slate-700">
+<div class="h-48 relative">
+<img alt="Campus architecture" class="w-full h-full object-cover" data-alt="Modern glass and concrete university building" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1o6tJj42Boepllz9f8YUgxCA_tfiwBXrXt7QqEYVtiTHOGF-_7S5wT-NDc05OKxlAu6E2CL8kez_Yv7ZaQN22ubwqTGahrTIPO1lCmsYWXwMf-0EI9pGGzEILfzyYStg2eG6Spr0S22uQOM1NsD0JBe_VPpYXLIr6Pad6DiFCWpjgfX9mKzKpiD8f_we4kHeSF1Hzh3XeAE3vUmjkGPrF_hV61n45tRKyJ2ckdJkzYkZSAe_ZubqsxCXhYUPZy4kY0D5leMFQQs7g"/>
+<div class="absolute top-4 right-4 bg-primary text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                            Site Principal
+                        </div>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Campus Cotonou</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-4">Situé au cœur de la capitale économique, offrant un accès direct aux partenaires industriels.</p>
+<div class="flex items-center text-primary font-semibold text-sm">
+                            En savoir plus <span class="material-symbols-outlined ml-1 text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Bottom Navigation Bar -->
+<nav class="fixed bottom-0 left-0 w-full z-50">
+<div class="flex gap-2 border-t border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-background-dark/90 backdrop-blur-md px-4 pb-6 pt-2">
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-slate-400 dark:text-slate-500" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">home</span>
+</div>
+<p class="text-[10px] font-medium leading-normal uppercase tracking-wider">Accueil</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-primary" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1">corporate_fare</span>
+</div>
+<p class="text-[10px] font-bold leading-normal uppercase tracking-wider">Campus</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-slate-400 dark:text-slate-500" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">school</span>
+</div>
+<p class="text-[10px] font-medium leading-normal uppercase tracking-wider">Programmes</p>
+</a>
+<a class="flex flex-1 flex-col items-center justify-end gap-1 text-slate-400 dark:text-slate-500" href="#">
+<div class="flex h-8 items-center justify-center">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<p class="text-[10px] font-medium leading-normal uppercase tracking-wider">Contact</p>
+</a>
+</div>
+</nav>
+</div>
+</body></html>

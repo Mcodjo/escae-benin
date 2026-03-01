@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>À Propos de l'ESCAE Bénin</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&amp;family=Outfit:wght@300;400;500;700&amp;family=Lexend:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#004bad",
+                        secondary: "#D4AF37", 
+                        "background-light": "#f8fafc",
+                        "background-dark": "#0f172a",
+                    },
+                    fontFamily: {
+                        sans: ["Outfit", "sans-serif"],
+                        serif: ["Cormorant Garamond", "serif"],
+                        display: ["Lexend", "sans-serif"] 
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                        lg: "1rem",
+                        xl: "1.5rem",
+                        full: "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .timeline-dot {
+            box-shadow: 0 0 0 4px #f8fafc;
+        }
+        .dark .timeline-dot {
+            box-shadow: 0 0 0 4px #0f172a;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans antialiased overflow-x-hidden">
+<!-- Top Navigation -->
+<header class="flex items-center justify-between whitespace-nowrap border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-10 py-4 sticky top-0 z-50 shadow-sm">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-primary dark:text-blue-400">
+<div class="size-8 text-primary">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.8261 30.5736C16.7203 29.8826 20.2244 29.4783 24 29.4783C27.7756 29.4783 31.2797 29.8826 34.1739 30.5736C36.9144 31.2278 39.9967 32.7669 41.3563 33.8352L24.8486 7.36089C24.4571 6.73303 23.5429 6.73303 23.1514 7.36089L6.64374 33.8352C8.00331 32.7669 11.0856 31.2278 13.8261 30.5736Z" fill="currentColor"></path>
+<path clip-rule="evenodd" d="M39.998 35.764C39.9944 35.7463 39.9875 35.7155 39.9748 35.6706C39.9436 35.5601 39.8949 35.4259 39.8346 35.2825C39.8168 35.2403 39.7989 35.1993 39.7813 35.1602C38.5103 34.2887 35.9788 33.0607 33.7095 32.5189C30.9875 31.8691 27.6413 31.4783 24 31.4783C20.3587 31.4783 17.0125 31.8691 14.2905 32.5189C12.0012 33.0654 9.44505 34.3104 8.18538 35.1832C8.17384 35.2075 8.16216 35.233 8.15052 35.2592C8.09919 35.3751 8.05721 35.4886 8.02977 35.589C8.00356 35.6848 8.00039 35.7333 8.00004 35.7388C8.00004 35.739 8 35.7393 8.00004 35.7388C8.00004 35.7641 8.0104 36.0767 8.68485 36.6314C9.34546 37.1746 10.4222 37.7531 11.9291 38.2772C14.9242 39.319 19.1919 40 24 40C28.8081 40 33.0758 39.319 36.0709 38.2772C37.5778 37.7531 38.6545 37.1746 39.3151 36.6314C39.9006 36.1499 39.9857 35.8511 39.998 35.764ZM4.95178 32.7688L21.4543 6.30267C22.6288 4.4191 25.3712 4.41909 26.5457 6.30267L43.0534 32.777C43.0709 32.8052 43.0878 32.8338 43.104 32.8629L41.3563 33.8352C43.104 32.8629 43.1038 32.8626 43.104 32.8629L43.1051 32.865L43.1065 32.8675L43.1101 32.8739L43.1199 32.8918C43.1276 32.906 43.1377 32.9246 43.1497 32.9473C43.1738 32.9925 43.2062 33.0545 43.244 33.1299C43.319 33.2792 43.4196 33.489 43.5217 33.7317C43.6901 34.1321 44 34.9311 44 35.7391C44 37.4427 43.003 38.7775 41.8558 39.7209C40.6947 40.6757 39.1354 41.4464 37.385 42.0552C33.8654 43.2794 29.133 44 24 44C18.867 44 14.1346 43.2794 10.615 42.0552C8.86463 41.4464 7.30529 40.6757 6.14419 39.7209C4.99695 38.7775 3.99999 37.4427 3.99999 35.7391C3.99999 34.8725 4.29264 34.0922 4.49321 33.6393C4.60375 33.3898 4.71348 33.1804 4.79687 33.0311C4.83898 32.9556 4.87547 32.8935 4.9035 32.8471C4.91754 32.8238 4.92954 32.8043 4.93916 32.7889L4.94662 32.777L4.95178 32.7688ZM35.9868 29.004L24 9.77997L12.0131 29.004C12.4661 28.8609 12.9179 28.7342 13.3617 28.6282C16.4281 27.8961 20.0901 27.4783 24 27.4783C27.9099 27.4783 31.5719 27.8961 34.6383 28.6282C35.082 28.7342 35.5339 28.8609 35.9868 29.004Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-slate-900 dark:text-white text-xl font-serif font-bold leading-tight tracking-tight">ESCAE Bénin</h2>
+</div>
+<div class="hidden lg:flex items-center gap-9">
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Accueil</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Formations</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Admissions</a>
+<a class="text-slate-700 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Recherche</a>
+<a class="text-primary dark:text-blue-400 text-sm font-bold border-b-2 border-primary" href="#">À Propos</a>
+</div>
+</div>
+<div class="flex flex-1 justify-end gap-6 items-center">
+<label class="hidden md:flex flex-col min-w-40 h-10 max-w-64 relative">
+<span class="absolute inset-y-0 left-0 flex items-center pl-3 text-slate-400">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</span>
+<input class="w-full h-full rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white placeholder:text-slate-400 pl-10 pr-4 text-sm border-none focus:ring-2 focus:ring-primary/50" placeholder="Rechercher"/>
+</label>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-xl h-10 px-6 bg-primary hover:bg-blue-700 text-white text-sm font-bold shadow-lg shadow-blue-500/20 transition-all">
+<span class="truncate">Candidater</span>
+</button>
+<button class="lg:hidden p-2 text-slate-700 dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="w-full">
+<!-- Section 1: Hero -->
+<section class="relative w-full h-[600px] flex items-center justify-center overflow-hidden bg-background-dark">
+<div class="absolute inset-0 w-full h-full bg-cover bg-center" data-alt="Vue aérienne d'un campus universitaire moderne avec des étudiants marchant sur les sentiers" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCK42uwWeAVpK-qG-4gfF6WHU1Eb5-GPFZhFKsQFEuKNGpOeJr6Jn8TJJiTTwtdMC53iaZcXf10_d-Rtxh63s-mQ121tQudEm3xD38hyXMxzG5DKRltTUl6gDv99tElEv-s6qWIsslXH5zpnN9AHmfyG1nR5EHtlzJJ9D-Zj6BCcVeBQ4FnF_ON5vBj3S2HLf0OXTEILD7bEfHAJzFhpaFQmUm0YcSWhQreiXzrtpBLWzEtqiS823HRTGabTCDhueaSllKH3Rb2_M0");'></div>
+<!-- Overlay with blue gradient and texture -->
+<div class="absolute inset-0 bg-gradient-to-r from-primary/90 to-slate-900/80 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/40 to-slate-900/90"></div>
+<div class="relative z-10 max-w-6xl mx-auto px-6 text-center">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 mb-6 animate-fade-in-up">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="text-secondary text-sm font-medium tracking-wider uppercase">Institution d'Excellence</span>
+</div>
+<h1 class="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-lg">
+                    L'Excellence Académique <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-300">Au Cœur de l'Afrique</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto font-light leading-relaxed mb-10">
+                    Depuis 2012, l'ESCAE Bénin façonne les leaders de demain à travers une pédagogie innovante et une ouverture sur le monde.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="px-8 py-4 bg-secondary hover:bg-yellow-500 text-slate-900 font-bold rounded-xl transition-all shadow-lg shadow-yellow-500/20 transform hover:-translate-y-1">
+                        Découvrir nos campus
+                    </button>
+<button class="px-8 py-4 bg-transparent border border-white text-white font-bold rounded-xl hover:bg-white/10 transition-all">
+                        Télécharger la brochure
+                    </button>
+</div>
+</div>
+</section>
+<!-- Section 2: History & Founding Badge -->
+<section class="py-20 px-6 lg:px-20 bg-white dark:bg-slate-900 relative overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative group">
+<div class="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl blur-xl opacity-70 group-hover:opacity-100 transition duration-500"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl h-[500px]">
+<img alt="Bâtiment principal de l'université avec une architecture moderne" class="w-full h-full object-cover transform group-hover:scale-105 transition duration-700" data-alt="Façade moderne du bâtiment principal de l'université sous un ciel bleu" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5Pds9L7tooS47DkUICXLWvwIIMV_cT_mhhH3CTVfJkCn0h82Jrwr3yAkJ6VD2YqHoKK-A7-kAsctD5MdF1ATymj9Iw4eeKSm5Yk8Y_1pHCNeQrj4bu0qKdeq6PlvexlprHIwspAjUPaUtvY2sQBkudoELP1FEorlCFDSyJ9YjAND04rN9wVyWnRFwO6w6W0psIMAnSxsCfwMtw-q71XK6H7xzOd_BkJfpNGgsOHEayxyxrxySTb-scVUeSJBCg5Fzm69f-HDrGA0"/>
+<!-- Badge -->
+<div class="absolute bottom-6 right-6 bg-white dark:bg-slate-800 p-6 rounded-xl shadow-lg border-l-4 border-secondary flex flex-col items-center">
+<span class="text-4xl font-serif font-bold text-primary dark:text-white">2012</span>
+<span class="text-xs uppercase tracking-widest text-slate-500 dark:text-slate-400 mt-1">Année de Fondation</span>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-6">
+<h2 class="text-secondary font-medium tracking-wider uppercase text-sm">Notre Histoire</h2>
+<h3 class="text-4xl lg:text-5xl font-serif font-bold text-slate-900 dark:text-white leading-tight">
+                        Une décennie d'impact et d'innovation éducative
+                    </h3>
+<div class="w-20 h-1 bg-primary rounded-full"></div>
+<p class="text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
+                        L'ESCAE Bénin est née d'une vision audacieuse : offrir au Bénin et à la sous-région une institution universitaire aux standards internationaux. Ce qui a commencé comme un projet modeste en 2012 est devenu aujourd'hui un pilier de l'enseignement supérieur privé.
+                    </p>
+<p class="text-slate-600 dark:text-slate-300 text-lg leading-relaxed">
+                        À travers les défis et les réussites, notre engagement est resté inébranlable : fournir une éducation de qualité qui allie théorie rigoureuse et pratique professionnelle.
+                    </p>
+<div class="grid grid-cols-3 gap-6 mt-8 border-t border-slate-200 dark:border-slate-800 pt-8">
+<div>
+<span class="block text-3xl font-bold text-primary dark:text-blue-400">5k+</span>
+<span class="text-sm text-slate-500 dark:text-slate-400">Diplômés</span>
+</div>
+<div>
+<span class="block text-3xl font-bold text-primary dark:text-blue-400">12+</span>
+<span class="text-sm text-slate-500 dark:text-slate-400">Partenariats</span>
+</div>
+<div>
+<span class="block text-3xl font-bold text-primary dark:text-blue-400">95%</span>
+<span class="text-sm text-slate-500 dark:text-slate-400">Insertion Pro</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 3: Mission & Vision -->
+<section class="py-20 px-6 bg-background-light dark:bg-background-dark">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-serif font-bold text-slate-900 dark:text-white mb-4">Notre Raison d'Être</h2>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Ce qui guide nos actions quotidiennes et définit notre horizon futur.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+<!-- Vision Card -->
+<div class="bg-primary p-10 lg:p-14 rounded-3xl text-white relative overflow-hidden group shadow-xl">
+<div class="absolute top-0 right-0 p-8 opacity-10 transform translate-x-1/4 -translate-y-1/4 group-hover:scale-110 transition duration-500">
+<span class="material-symbols-outlined text-[180px]">visibility</span>
+</div>
+<div class="relative z-10">
+<div class="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-8">
+<span class="material-symbols-outlined text-3xl">light_mode</span>
+</div>
+<h3 class="text-3xl font-serif font-bold mb-6">Notre Vision</h3>
+<p class="text-blue-100 text-lg leading-relaxed opacity-90">
+                                Être reconnue comme l'université de référence en Afrique de l'Ouest pour la formation de leaders éthiques, compétents et innovants, capables de relever les défis complexes du développement durable.
+                            </p>
+</div>
+</div>
+<!-- Mission Card -->
+<div class="bg-slate-900 dark:bg-slate-800 p-10 lg:p-14 rounded-3xl text-white relative overflow-hidden group shadow-xl border border-slate-700">
+<div class="absolute top-0 right-0 p-8 opacity-10 transform translate-x-1/4 -translate-y-1/4 group-hover:scale-110 transition duration-500">
+<span class="material-symbols-outlined text-[180px]">rocket_launch</span>
+</div>
+<div class="relative z-10">
+<div class="w-14 h-14 bg-secondary/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mb-8 text-secondary">
+<span class="material-symbols-outlined text-3xl">flag</span>
+</div>
+<h3 class="text-3xl font-serif font-bold mb-6 text-secondary">Notre Mission</h3>
+<p class="text-slate-300 text-lg leading-relaxed">
+                                Dispenser un enseignement supérieur de qualité, promouvoir la recherche scientifique appliquée et favoriser l'entrepreneuriat, dans un environnement inclusif qui valorise l'excellence et l'intégrité.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 4: Vertical Timeline -->
+<section class="py-24 px-6 bg-white dark:bg-slate-900">
+<div class="max-w-5xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-serif font-bold text-slate-900 dark:text-white mb-4">Jalons Historiques</h2>
+<p class="text-slate-600 dark:text-slate-400">Les moments clés qui ont forgé l'identité de l'ESCAE Bénin.</p>
+</div>
+<div class="relative">
+<!-- Vertical Line with Gradient -->
+<div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-primary via-blue-500 to-secondary transform -translate-x-1/2"></div>
+<!-- 2012 Item -->
+<div class="relative flex items-center justify-between mb-16 md:flex-row flex-col-reverse group">
+<div class="md:w-5/12 w-full p-4 text-right pr-8 md:pr-0 md:text-right text-left pl-12 md:pl-4">
+<h3 class="text-2xl font-serif font-bold text-primary dark:text-blue-400">Octobre 2012</h3>
+<h4 class="text-xl font-semibold text-slate-800 dark:text-white mt-2">Création de l'ESCAE</h4>
+<p class="text-slate-600 dark:text-slate-400 mt-2">Ouverture officielle des portes avec la première cohorte de 50 étudiants en gestion.</p>
+</div>
+<div class="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-primary border-4 border-white dark:border-slate-900 transform -translate-x-1/2 z-10 timeline-dot"></div>
+<div class="md:w-5/12 w-full p-4 pl-12 md:pl-8"></div>
+</div>
+<!-- 2015 Item -->
+<div class="relative flex items-center justify-between mb-16 md:flex-row flex-col group">
+<div class="md:w-5/12 w-full p-4 text-right pr-8 md:pr-0 hidden md:block"></div>
+<div class="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-blue-600 border-4 border-white dark:border-slate-900 transform -translate-x-1/2 z-10 timeline-dot"></div>
+<div class="md:w-5/12 w-full p-4 text-left pl-12 md:pl-8">
+<h3 class="text-2xl font-serif font-bold text-primary dark:text-blue-400">Juin 2015</h3>
+<h4 class="text-xl font-semibold text-slate-800 dark:text-white mt-2">Accréditation Nationale</h4>
+<p class="text-slate-600 dark:text-slate-400 mt-2">Reconnaissance officielle de tous les diplômes de Licence et Master par l'État Béninois.</p>
+</div>
+</div>
+<!-- 2019 Item -->
+<div class="relative flex items-center justify-between mb-16 md:flex-row flex-col-reverse group">
+<div class="md:w-5/12 w-full p-4 text-right pr-8 md:pr-0 md:text-right text-left pl-12 md:pl-4">
+<h3 class="text-2xl font-serif font-bold text-primary dark:text-blue-400">Septembre 2019</h3>
+<h4 class="text-xl font-semibold text-slate-800 dark:text-white mt-2">Nouveau Campus</h4>
+<p class="text-slate-600 dark:text-slate-400 mt-2">Inauguration du campus principal moderne équipé de laboratoires informatiques de pointe.</p>
+</div>
+<div class="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-blue-500 border-4 border-white dark:border-slate-900 transform -translate-x-1/2 z-10 timeline-dot"></div>
+<div class="md:w-5/12 w-full p-4 pl-12 md:pl-8"></div>
+</div>
+<!-- 2024 Item -->
+<div class="relative flex items-center justify-between md:flex-row flex-col group">
+<div class="md:w-5/12 w-full p-4 text-right pr-8 md:pr-0 hidden md:block"></div>
+<div class="absolute left-4 md:left-1/2 w-8 h-8 rounded-full bg-secondary border-4 border-white dark:border-slate-900 transform -translate-x-1/2 z-10 timeline-dot animate-pulse"></div>
+<div class="md:w-5/12 w-full p-4 text-left pl-12 md:pl-8">
+<h3 class="text-2xl font-serif font-bold text-secondary">2024</h3>
+<h4 class="text-xl font-semibold text-slate-800 dark:text-white mt-2">Expansion Internationale</h4>
+<p class="text-slate-600 dark:text-slate-400 mt-2">Lancement des programmes de double diplomation avec des partenaires en Europe et en Asie.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 5: Our Values -->
+<section class="py-24 px-6 bg-slate-50 dark:bg-slate-950">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-2xl">
+<h2 class="text-secondary font-medium tracking-wider uppercase text-sm mb-3">Nos Piliers</h2>
+<h3 class="text-4xl font-serif font-bold text-slate-900 dark:text-white">Les Valeurs qui nous Définissent</h3>
+</div>
+<a class="text-primary font-bold flex items-center hover:underline" href="#">
+                        Télécharger la charte éthique
+                        <span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Value 1 -->
+<div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-800 group">
+<div class="w-14 h-14 bg-blue-50 dark:bg-blue-900/20 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary dark:text-blue-400 text-3xl group-hover:text-white transition-colors duration-300">verified</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3 font-serif">Intégrité</h4>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+                            Nous cultivons l'honnêteté intellectuelle et la transparence dans toutes nos actions académiques et administratives.
+                        </p>
+</div>
+<!-- Value 2 -->
+<div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-800 group">
+<div class="w-14 h-14 bg-blue-50 dark:bg-blue-900/20 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary dark:text-blue-400 text-3xl group-hover:text-white transition-colors duration-300">psychology</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3 font-serif">Innovation</h4>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+                            Nous encourageons la créativité et l'adoption de nouvelles technologies pour rester à la pointe de la pédagogie.
+                        </p>
+</div>
+<!-- Value 3 -->
+<div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 dark:border-slate-800 group">
+<div class="w-14 h-14 bg-blue-50 dark:bg-blue-900/20 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary transition-colors duration-300">
+<span class="material-symbols-outlined text-primary dark:text-blue-400 text-3xl group-hover:text-white transition-colors duration-300">diversity_3</span>
+</div>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mb-3 font-serif">Inclusion</h4>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed text-sm">
+                            Nous croyons en la force de la diversité et créons un environnement où chaque étudiant peut s'épanouir.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Simple Footer for Context -->
+<footer class="bg-background-dark text-white py-12 px-6 border-t border-slate-800">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">school</span>
+<span class="font-serif text-xl font-bold">ESCAE Bénin</span>
+</div>
+<p class="text-slate-400 text-sm">© 2024 ESCAE Bénin. Tous droits réservés.</p>
+</div>
+</footer>
+</main>
+</body></html>

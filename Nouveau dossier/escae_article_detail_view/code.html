@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ESCAE - Article Detail</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#004bad", // Royal Blue
+                        "primary-dark": "#003580",
+                        "accent-gold": "#C6A87C", // Muted Gold for luxury feel
+                        "background-light": "#f8f9fa", // Slightly off-white
+                        "background-dark": "#0f1823",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"],
+                        "serif": ["Cormorant Garamond", "serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "1rem", 
+                        "lg": "1.5rem", 
+                        "xl": "2rem", 
+                        "full": "9999px"
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                        'card': '0 10px 40px -10px rgba(0, 75, 173, 0.08)',
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display selection:bg-primary selection:text-white">
+<div class="flex min-h-screen flex-col">
+<!-- Header -->
+<header class="sticky top-0 z-50 w-full backdrop-blur-md bg-white/90 dark:bg-background-dark/90 border-b border-slate-200 dark:border-slate-800 transition-colors duration-300">
+<div class="layout-container px-4 md:px-10 py-3 flex items-center justify-between">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-8 flex items-center justify-center bg-primary text-white rounded-lg">
+<span class="material-symbols-outlined text-[20px]">school</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-xl font-extrabold tracking-tight">ESCAE</h2>
+</div>
+<nav class="hidden md:flex flex-1 justify-end gap-8 items-center">
+<div class="flex items-center gap-6">
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-white text-sm font-medium transition-colors" href="#">Accueil</a>
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-white text-sm font-medium transition-colors" href="#">Formations</a>
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-white text-sm font-medium transition-colors" href="#">Recherche</a>
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-white text-sm font-medium transition-colors" href="#">Campus</a>
+<a class="text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-white text-sm font-medium transition-colors" href="#">Contact</a>
+</div>
+<button class="bg-primary hover:bg-primary-dark text-white text-sm font-bold py-2.5 px-6 rounded-full transition-all duration-300 shadow-lg shadow-primary/20 flex items-center gap-2">
+<span>Candidater</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</nav>
+<button class="md:hidden p-2 text-slate-600 dark:text-slate-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative w-full h-[500px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Conference hall with blurred audience lighting" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBe_F5UjACRSjB9Qd7ufNgJX2E7N0vhUWBdE9dnUh-squ3dwbHydGEi4UTOZSy_XQMPdjZOmTOArK5nEhB-bLf1YjE6wGFGz1FiOjfBfjYBO9Eb2KXHBUuKjyorJrbXjrz6thjaYwMJ6iC9YPcKQ74_6yGvoVC_oWS3qgoHIJgTDba_k_Ze1hWk5OAzA14aujQvBrR_G5tkCPhQOOiDmvvupBGB_23709DHeFhrmbB5EffkJ3UplywluhsDagxiI7qQc5j-zPkJ74A");'></div>
+<div class="absolute inset-0 bg-[#001F5B]/80 dark:bg-[#001030]/90"></div> <!-- Royal Overlay -->
+<div class="relative z-10 layout-container w-full max-w-4xl px-4 md:px-10 flex flex-col gap-6 text-center">
+<div class="flex justify-center mb-2">
+<span class="px-4 py-1.5 rounded-full border border-accent-gold/50 bg-accent-gold/10 text-accent-gold text-xs font-bold tracking-widest uppercase backdrop-blur-sm">
+                        Événement
+                    </span>
+</div>
+<h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight font-serif">
+                    AFRIA 2024: Grande Conférence Internationale
+                </h1>
+<div class="flex flex-col md:flex-row items-center justify-center gap-4 text-slate-200 text-sm md:text-base font-medium mt-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent-gold text-[20px]">calendar_month</span>
+<span>25 Mars 2024</span>
+</div>
+<span class="hidden md:inline text-slate-500">•</span>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accent-gold text-[20px]">location_on</span>
+<span>Campus Principal, Niamey</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Content Area -->
+<main class="flex-1 -mt-20 relative z-20 pb-20 px-4 md:px-10">
+<div class="layout-container max-w-[800px] mx-auto">
+<!-- Main Featured Image -->
+<div class="w-full h-[300px] md:h-[450px] rounded-xl overflow-hidden shadow-2xl mb-8 relative group">
+<img alt="International delegates discussing at a modern conference table" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Diverse group of professionals at a conference table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3BTABN2fo72ttH5P4ava8vkjtnRj1bk6B3VkE9DiMBdAxqJ2ZK4tGS67-bqQ2lqcOv2cqkPi2bwZjlwk-3ut5HCdXW84grYSj4yrefC4jup9o6s00j2frU6QJyHWYDsa3M6Je11uhrcA9NnQcqECFuDYu1ffLRZ93w3IQpMBKOt8AzKwYRB-GotB_fIOWoRtFXMcmhyipT61_sW58oTfyWJz3X0L1_KxMeG6MTuTUdqTTGhmFIUd0SXj4cOaTEuGBtwAJ7d3t4N8"/>
+</div>
+<!-- Editorial Content Card -->
+<article class="bg-white dark:bg-slate-800 rounded-lg shadow-card p-8 md:p-12 lg:p-14">
+<!-- Introduction -->
+<div class="mb-10 border-l-4 border-accent-gold pl-6 py-1">
+<p class="font-serif text-xl md:text-2xl text-slate-700 dark:text-slate-200 italic leading-relaxed">
+                            "Une rencontre majeure pour l'avenir de l'éducation en Afrique. AFRIA 2024 promet de redéfinir les standards de l'enseignement supérieur grâce à l'innovation technologique et la coopération internationale."
+                        </p>
+</div>
+<!-- Body Text -->
+<div class="prose prose-lg prose-slate dark:prose-invert max-w-none font-display">
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Introduction</h3>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+                            L'École Supérieure de Commerce et d'Administration des Entreprises (ESCAE) est fière d'annoncer la tenue de la conférence annuelle AFRIA. Cette édition 2024 rassemblera des experts, des chercheurs et des décideurs politiques de tout le continent pour discuter des enjeux cruciaux du développement durable et de l'économie numérique.
+                        </p>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
+                            Dans un contexte mondial en perpétuelle mutation, il est impératif pour les institutions africaines de se positionner comme des leaders de pensée. AFRIA 2024 n'est pas seulement une conférence, c'est un incubateur d'idées novatrices qui façonneront les politiques éducatives de demain.
+                        </p>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Programme de la journée</h3>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+                            La journée sera rythmée par plusieurs sessions plénières et ateliers interactifs. Voici les temps forts attendus :
+                        </p>
+<ul class="space-y-3 mb-8 text-slate-600 dark:text-slate-300 list-none pl-0">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1 text-[20px]">check_circle</span>
+<span><strong class="text-slate-900 dark:text-white">09:00 - Cérémonie d'ouverture :</strong> Discours du Directeur Général et des partenaires stratégiques.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1 text-[20px]">check_circle</span>
+<span><strong class="text-slate-900 dark:text-white">10:30 - Panel Digitalisation :</strong> "L'IA au service de l'éducation en Afrique", modéré par Dr. Kaboré.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-1 text-[20px]">check_circle</span>
+<span><strong class="text-slate-900 dark:text-white">14:00 - Ateliers Pratiques :</strong> Sessions de networking et partage d'expérience entre alumni et étudiants.</span>
+</li>
+</ul>
+<h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">Inscription et Participation</h3>
+<p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+                            Les places étant limitées, nous encourageons vivement les intéressés à s'inscrire avant le 15 mars. Cet événement est ouvert aux étudiants, aux professionnels du secteur et aux partenaires académiques.
+                        </p>
+<div class="bg-primary/5 dark:bg-primary/10 rounded-lg p-6 flex flex-col sm:flex-row gap-6 items-center border border-primary/10">
+<div class="flex-1">
+<h4 class="text-lg font-bold text-primary mb-1">Rejoignez-nous</h4>
+<p class="text-sm text-slate-600 dark:text-slate-400">Ne manquez pas cette opportunité unique de connexion.</p>
+</div>
+<button class="bg-primary hover:bg-primary-dark text-white font-bold py-3 px-8 rounded-full transition-colors w-full sm:w-auto text-sm">
+                                S'inscrire maintenant
+                            </button>
+</div>
+</div>
+<!-- Tags -->
+<div class="mt-10 pt-6 border-t border-slate-100 dark:border-slate-700 flex flex-wrap gap-2">
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-xs font-semibold rounded-full hover:bg-slate-200 dark:hover:bg-slate-600 cursor-pointer transition-colors">#Education</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-xs font-semibold rounded-full hover:bg-slate-200 dark:hover:bg-slate-600 cursor-pointer transition-colors">#Innovation</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-xs font-semibold rounded-full hover:bg-slate-200 dark:hover:bg-slate-600 cursor-pointer transition-colors">#Afrique</span>
+<span class="px-3 py-1 bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-xs font-semibold rounded-full hover:bg-slate-200 dark:hover:bg-slate-600 cursor-pointer transition-colors">#Conférence</span>
+</div>
+</article>
+<!-- Navigation Footer -->
+<div class="mt-12 flex justify-center">
+<button class="group flex items-center gap-3 px-6 py-3 rounded-full bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 font-bold text-sm hover:border-primary hover:text-primary transition-all shadow-sm hover:shadow-md">
+<span class="material-symbols-outlined text-[18px] transition-transform group-hover:-translate-x-1">arrow_back</span>
+                        Retour aux actualités
+                    </button>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-background-dark text-slate-400 py-12 border-t border-slate-800">
+<div class="layout-container px-4 md:px-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 text-white mb-4">
+<div class="size-8 flex items-center justify-center bg-primary text-white rounded-lg">
+<span class="material-symbols-outlined text-[20px]">school</span>
+</div>
+<h2 class="text-xl font-extrabold tracking-tight">ESCAE</h2>
+</div>
+<p class="text-sm max-w-xs leading-relaxed mb-6">
+                            L'excellence académique au service du développement africain. Formons les leaders de demain.
+                        </p>
+</div>
+<div>
+<h4 class="text-white font-bold mb-4">Liens Rapides</h4>
+<ul class="space-y-2 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">À propos</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Admissions</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Vie étudiante</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Actualités</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-bold mb-4">Contact</h4>
+<ul class="space-y-2 text-sm">
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+<span>Niamey, Niger</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">mail</span>
+<span>contact@escae.edu</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">call</span>
+<span>+227 20 73 98 10</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+<p>© 2024 ESCAE. Tous droits réservés.</p>
+<div class="flex gap-4">
+<a class="hover:text-white transition-colors" href="#">Mentions légales</a>
+<a class="hover:text-white transition-colors" href="#">Politique de confidentialité</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

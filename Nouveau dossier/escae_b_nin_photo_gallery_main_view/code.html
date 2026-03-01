@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ESCAE Bénin - Galerie Photos</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&amp;family=Lexend:wght@300;400;500;600;700&amp;family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#004bad",
+                        "primary-dark": "#001F5B",
+                        "accent-gold": "#C5A059",
+                        "accent-amber": "#FEF3C7",
+                        "background-light": "#FAFAF8",
+                        "background-dark": "#0f1823",
+                    },
+                    fontFamily: {
+                        "display": ["Cormorant Garamond", "serif"],
+                        "body": ["Outfit", "sans-serif"],
+                        "nav": ["Lexend", "sans-serif"],
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.75rem", 
+                        "lg": "1rem", 
+                        "xl": "1.5rem", 
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .masonry-grid {
+            column-count: 1;
+            column-gap: 1.5rem;
+        }
+        @media (min-width: 640px) {
+            .masonry-grid { column-count: 2; }
+        }
+        @media (min-width: 1024px) {
+            .masonry-grid { column-count: 3; }
+        }
+        @media (min-width: 1280px) {
+            .masonry-grid { column-count: 4; }
+        }
+        .break-inside-avoid {
+            break-inside: avoid;
+        }
+        /* Custom scrollbar for horizontal filter on mobile */
+        .hide-scroll::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scroll {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-background-light text-slate-900 font-body antialiased overflow-x-hidden">
+<!-- Top Navigation -->
+<div class="relative w-full bg-white border-b border-[#e6ecf4]">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 lg:px-10 flex flex-1 justify-center py-0">
+<div class="layout-content-container flex flex-col max-w-[1440px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap py-4">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-primary-dark">
+<div class="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<h2 class="text-primary-dark text-xl font-bold leading-tight tracking-tight font-nav">ESCAE Bénin</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-8 ml-8">
+<a class="text-slate-600 hover:text-primary transition-colors text-sm font-medium leading-normal font-nav" href="#">Accueil</a>
+<a class="text-slate-600 hover:text-primary transition-colors text-sm font-medium leading-normal font-nav" href="#">Formations</a>
+<a class="text-slate-600 hover:text-primary transition-colors text-sm font-medium leading-normal font-nav" href="#">Admission</a>
+<a class="text-primary text-sm font-bold leading-normal font-nav border-b-2 border-primary pb-0.5" href="#">Galerie</a>
+<a class="text-slate-600 hover:text-primary transition-colors text-sm font-medium leading-normal font-nav" href="#">Contact</a>
+</nav>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-6 items-center">
+<label class="flex flex-col min-w-40 !h-10 max-w-64 relative group">
+<div class="flex w-full flex-1 items-center rounded-full bg-slate-100 px-4 transition-all focus-within:ring-2 focus-within:ring-primary/20 focus-within:bg-white">
+<span class="material-symbols-outlined text-slate-400 text-[20px]">search</span>
+<input class="w-full bg-transparent border-none text-slate-800 placeholder:text-slate-400 focus:ring-0 text-sm font-normal px-2 py-2" placeholder="Rechercher..."/>
+</div>
+</label>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-6 bg-primary hover:bg-primary-dark transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em] font-nav shadow-lg shadow-primary/20">
+<span class="truncate">Candidater</span>
+</button>
+</div>
+<div class="lg:hidden">
+<button class="p-2 text-slate-600">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+</div>
+</div>
+</div>
+</div>
+<!-- Hero Section -->
+<div class="relative w-full overflow-hidden bg-gradient-to-br from-[#001F5B] to-[#004AAD]">
+<!-- Subtle Overlay Pattern/Collage -->
+<div class="absolute inset-0 opacity-15 mix-blend-overlay pointer-events-none" data-alt="Abstract university texture overlay" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBN7slrlCm3Q2e20Mk_7fK74HCY37Jm7KbCDHQoDU4T2Ta54Beac7wdXjlj96dDLgEhfqohjBLOxEAm6i6Dknv3g4UGpm6k2p5Fb7nSyhvn3Ude-IsfRK3UEWJ6uULLkggx1Ng56WtN-4a7XayR75WyIDNxDXJFIzanNzhkm0uDYi4QPJDzUrPsdRZb426lhzREqb01BotYBWbdoRo87ahXVf46J_LLmC4FXaOK1kAt1V0don1Oi9cZIZVffqa-jiLaSNWKD1itFGeh'); background-size: cover; background-position: center;"></div>
+<div class="relative max-w-[1440px] mx-auto px-4 lg:px-10 pt-20 pb-32 flex flex-col items-center text-center z-10">
+<span class="inline-flex items-center justify-center px-4 py-1.5 rounded-full bg-accent-gold/20 border border-accent-gold/40 backdrop-blur-sm text-[#FFD700] text-xs font-bold tracking-widest uppercase mb-6 font-nav">
+                Nos Moments
+            </span>
+<h1 class="text-white text-5xl md:text-7xl font-light mb-6">
+<span class="font-display italic text-accent-gold mr-2">Galerie</span> Photos
+            </h1>
+<p class="text-blue-100/80 text-lg md:text-xl font-light max-w-2xl leading-relaxed">
+                Plongez au cœur de l'excellence académique et de la vie étudiante vibrante à l'ESCAE Bénin.
+            </p>
+</div>
+<!-- Wave Divider -->
+<div class="absolute bottom-0 left-0 w-full overflow-hidden leading-[0]">
+<svg class="relative block w-[calc(146%)] h-[60px] md:h-[100px] fill-background-light" data-name="Layer 1" preserveaspectratio="none" viewbox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
+</svg>
+</div>
+</div>
+<!-- Main Content Area -->
+<main class="max-w-[1440px] mx-auto px-4 lg:px-10 -mt-8 relative z-20 pb-20">
+<!-- Filter Bar -->
+<div class="flex justify-center mb-10 overflow-x-auto hide-scroll pb-4">
+<div class="flex items-center gap-3 p-1.5 bg-white rounded-full shadow-sm border border-slate-200/60">
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary text-white text-sm font-semibold transition-all shadow-md shadow-primary/20">
+<span>Tout</span>
+<span class="bg-white/20 px-1.5 py-0.5 rounded-md text-[10px]">156</span>
+</button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full hover:bg-slate-50 text-slate-600 text-sm font-medium transition-all group whitespace-nowrap">
+<span>Soutenances</span>
+<span class="bg-slate-100 text-slate-400 group-hover:bg-slate-200 group-hover:text-slate-600 px-1.5 py-0.5 rounded-md text-[10px] transition-colors">42</span>
+</button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full hover:bg-slate-50 text-slate-600 text-sm font-medium transition-all group whitespace-nowrap">
+<span>Événements</span>
+<span class="bg-slate-100 text-slate-400 group-hover:bg-slate-200 group-hover:text-slate-600 px-1.5 py-0.5 rounded-md text-[10px] transition-colors">38</span>
+</button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full hover:bg-slate-50 text-slate-600 text-sm font-medium transition-all group whitespace-nowrap">
+<span>Campus</span>
+<span class="bg-slate-100 text-slate-400 group-hover:bg-slate-200 group-hover:text-slate-600 px-1.5 py-0.5 rounded-md text-[10px] transition-colors">25</span>
+</button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full hover:bg-slate-50 text-slate-600 text-sm font-medium transition-all group whitespace-nowrap">
+<span>Vie Sociale</span>
+<span class="bg-slate-100 text-slate-400 group-hover:bg-slate-200 group-hover:text-slate-600 px-1.5 py-0.5 rounded-md text-[10px] transition-colors">30</span>
+</button>
+<button class="flex items-center gap-2 px-5 py-2.5 rounded-full hover:bg-slate-50 text-slate-600 text-sm font-medium transition-all group whitespace-nowrap">
+<span>Gala &amp; Fêtes</span>
+<span class="bg-slate-100 text-slate-400 group-hover:bg-slate-200 group-hover:text-slate-600 px-1.5 py-0.5 rounded-md text-[10px] transition-colors">21</span>
+</button>
+</div>
+</div>
+<!-- Social Life Banner -->
+<div class="mb-12">
+<div class="flex flex-col md:flex-row items-center justify-between gap-4 p-4 rounded-xl bg-accent-amber border border-yellow-200/60 shadow-sm">
+<div class="flex items-center gap-4">
+<div class="size-10 rounded-full bg-yellow-400/20 text-yellow-700 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">palm_logo</span>
+</div>
+<div>
+<h3 class="text-slate-800 font-bold text-lg font-display">Vie Sociale Africaine</h3>
+<p class="text-slate-600 text-sm">Découvrez la richesse culturelle de nos célébrations et l'ambiance unique du campus.</p>
+</div>
+</div>
+<button class="text-sm font-bold text-yellow-800 hover:text-yellow-900 flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-yellow-400/10 transition-colors whitespace-nowrap">
+                    Voir l'album dédié
+                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Masonry Grid -->
+<div class="masonry-grid space-y-6">
+<!-- Item 1: Soutenance (Tall) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[480px]">
+<img alt="Students in academic robes graduation" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Students wearing graduation gowns celebrating" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRMSyufAFzJ6O5Eka309TaJ_7_lyQxL_nhixaF7o8gHberwutREn6pzmkc0RC5ygJkJw6qWz4epVhY-MJ5Ll5wcg6nX6VMM7GXOc1v5ioXuxusuP46madTwN2Fepe2aqT-nnA8nzTfP-17Hp80pHTI_MSAeD6Z54WWa_UHbTflDUTQfbhDQfoIUWFMXRZsFXXogFJ2e2DCQdnkqdEadsl4ow27Jb2kXRR0LZCy_0n_FQ-MfLWpnrgnFcN0WvGkD7KZEnoNk-HuETt_"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<!-- Hover Content -->
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Soutenances</span>
+<h3 class="text-white font-display text-2xl font-bold leading-tight">Promotion 2023 - Master II</h3>
+<p class="text-slate-200 text-sm mt-2 line-clamp-2">Cérémonie solennelle de remise des diplômes en présence du corps professoral.</p>
+</div>
+</div>
+</div>
+<!-- Item 2: Conference (Medium) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[320px]">
+<img alt="Conference room speaker" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Speaker presenting at a conference hall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs1csPUyG1rmEKteEDyjd-5IglLvcGRabcpRxf5h94HgMj6W0geqYor7C7HjKqdu1S7xYXaIUr-9fsOPjIIY4McrR_FUVE-ILKxypCxQMke_jy9t-bECZEfe5dX3uvF7GB12EfUUBWSzdg6bdGp6yYEZk-anhNTUg0UdTqRCEeBDsGU9WhxWxf7l-Ku7i-ox7YWqLVuTuShzSKEMA26znhYsiAL3SuOtOVU9O8Bi3JFLb_3YP2a3EIthIZ0GqFFu8DVZv67HehGEFT"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Événements</span>
+<h3 class="text-white font-display text-xl font-bold leading-tight">Conférence AFRIA 2024</h3>
+</div>
+</div>
+</div>
+<!-- Item 3: Campus Aerial (Short) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[240px]">
+<img alt="University campus building modern architecture" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Modern university building facade under blue sky" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAq2wW9AEzh-YPIS908cXW-asMrpUezBq1VkL4r2PsLmT65vibHQ6ezl284FupQPqg-xBey6NfI_2XXbdIM--qALcgK_SD6IWwfmfK9hqmPWFNuoM5iGq8nvKNaVQ46Mn8soIrlE8-s94BMvhlju77ckwm0VqpStIJ9T_r0NdC1MRzwJZLy9WIHRq7SoLUNV3g5hN4b1oXJooaNswvWshr6JPpNiBYBLhdMdu714m37jkuoZEUxg52e86sr6Hm7MhNXeSc0sRtbOd8h"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Campus</span>
+<h3 class="text-white font-display text-xl font-bold leading-tight">Vue du Nouveau Bâtiment</h3>
+</div>
+</div>
+</div>
+<!-- Item 4: Gala (Medium) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[380px]">
+<img alt="Students studying together in library" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Students collaborating in a modern library" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBw-7Tp0WzmIyvFh8v8L_b71cMZBY_KahP3klwC6I3TIU8Fd7XSdoH5dCcZQQJ7h6Q-xmHD2d3mjuyziX-Al1ZZIr6nJ0j7GppG3q0z3_h8Hr63ttf8IiNKCCaWdJqbGDDjgcoNvp-oZ6K_6s-UBtTL_4becuORMw-0uuZMt3v1ZQnpY9HFYPivVS4lTA7d38OhwmRN6EKZPQ3jlSFfuI8yRwolwrYqbjM-XfO05sw3WlBq7swYAlHLIiJRr5yYj6W3wry2m-b40nwf"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Vie Étudiante</span>
+<h3 class="text-white font-display text-xl font-bold leading-tight">Session Travail Collaboratif</h3>
+</div>
+</div>
+</div>
+<!-- Item 5: Cultural (Tall) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[420px]">
+<img alt="Cultural dancing event people gathering" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="People gathering for a cultural event" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApP6KBx8IE_brJIo5Sj9slNp77fFflgID3_IqNho3kOQQKM2Dff1RnZrwvDN8S43HlTw5OyoTneVT2bIIxQCLuKjodk61V0swYBQSGSbmUKXcbRQOAMi0IsK0tRtB5meRtwQ6Si-1UD8MtedmOaFypIoe3tYBp7Fe5gtRLckXJz3PZltmX6ZaayLKtV2bxUNH29SKzrGaIpk713cvdXDkC63FbHUXTbqZZ4d-H7bmquJZYTU4qMNvnrZVVlD0JAZPlAhJaBwG2Wm_o"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Vie Sociale</span>
+<h3 class="text-white font-display text-2xl font-bold leading-tight">Festival Culturel</h3>
+<p class="text-slate-200 text-sm mt-2 line-clamp-2">Célébration des traditions et de la diversité au sein du campus.</p>
+</div>
+</div>
+</div>
+<!-- Item 6: Gala Night (Medium) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[300px]">
+<img alt="Elegant evening gala event lights" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Blurred lights and elegant atmosphere of a gala" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYSED9MmJojYzmsBFEkxwKZSD2WyxbVYWrCP2_HFwbdSaLXr5RyYTgVFEvo9nV3GlEwXEgWBj1_6t2ykl1o1tKElhmf-1UxpniHnZYeqTGtV3FsYKUUxWTSYlUkdNq6K5UTuAogN3cU3HgwvL3Wbq8ztynXA4UoyeRoJKjRhfiDd92b--LjlYCZLjSGnR3NAPxDpMJeBXLwycoKDo7p9Sf7wy-qtC0O2F-u7OEAGRjpjv3I_pn8ABikqFm4zJ-T2TwR6uGpZef1Pla"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Gala &amp; Fêtes</span>
+<h3 class="text-white font-display text-xl font-bold leading-tight">Soirée de Gala 2024</h3>
+</div>
+</div>
+</div>
+<!-- Item 7: Student (Short) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[260px]">
+<img alt="Students sitting outdoors discussing" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Students having a discussion outdoors on campus" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDby-AcfX4bYgQsVtmkrWaMDBJ7DwNTutaWs4e7C5-sMtCAK-8kVVZSFInKRYIGgLmXmLLa_Kg3BjQzho_4Fgew-zGnkjqFhCnGKeQQwpQVK25XE2I8VYqMU8FQuFiUynsJfVToCEt5Ys-Fg1TZ35myOQ78LalApApRsKPCwpY49U3uZHmXbbZT4Cd4uxeKAxtNkK468GjQCSQlyH4yzE_xSkuxcOMARK8QFwRrOA9LzTXF68xoLx_wQ0q09s1bpNnJnmmsFbY0gg9Y"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Campus</span>
+<h3 class="text-white font-display text-xl font-bold leading-tight">Détente au Parc</h3>
+</div>
+</div>
+</div>
+<!-- Item 8: Workshop (Medium) -->
+<div class="break-inside-avoid group relative rounded-2xl overflow-hidden cursor-pointer shadow-sm hover:shadow-xl transition-all duration-500 mb-6">
+<div class="relative w-full h-[340px]">
+<img alt="Business workshop presentation" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="People attending a business workshop" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9yoEqxkwWCF0WbpWz7cWHzshZO6ijbpCa8_D0GCNDSfI3ANlpfBP1w1bES2EKNSHKlJiK47x3egGk5N8PR95d7OlPjdspAoMNBK6SW21w9YqEiGoutX8WhCp600tVSB9DxWw3Uw3ZN1pXgTv9ipZCWWRKM-AW9c2RsKckzDP2Qgq4xs--SlNlXzucB7gD0TuehwlyZi5_HtmlbCncPY93NsErSmVQEGpzTbWgNPniO7dTW6KbB_JYhQrXS9DxZSzhBPXxYVf1O12h"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-dark/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+<div class="absolute top-4 right-4 bg-white/20 backdrop-blur-md p-2 rounded-full opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300 delay-75">
+<span class="material-symbols-outlined text-white">zoom_in</span>
+</div>
+<div class="absolute bottom-0 left-0 p-6 translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+<span class="text-accent-gold text-xs font-bold tracking-wider uppercase mb-1 block">Événements</span>
+<h3 class="text-white font-display text-xl font-bold leading-tight">Séminaire Leadership</h3>
+</div>
+</div>
+</div>
+</div>
+<!-- Pagination/Load More -->
+<div class="flex justify-center mt-12">
+<button class="flex items-center gap-2 px-8 py-3 rounded-full bg-white border border-slate-200 text-slate-700 font-bold hover:border-primary hover:text-primary transition-all shadow-sm">
+                Charger plus de photos
+                <span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</main>
+<!-- Footer Simple -->
+<footer class="bg-primary-dark text-white py-12 border-t border-white/10">
+<div class="max-w-[1440px] mx-auto px-4 lg:px-10 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex flex-col items-center md:items-start">
+<h3 class="font-display text-2xl font-bold mb-1">ESCAE Bénin</h3>
+<p class="text-blue-200 text-sm">L'excellence au service du développement.</p>
+</div>
+<div class="flex gap-6 text-sm text-blue-200">
+<a class="hover:text-white transition-colors" href="#">Mentions Légales</a>
+<a class="hover:text-white transition-colors" href="#">Politique de Confidentialité</a>
+<a class="hover:text-white transition-colors" href="#">Plan du site</a>
+</div>
+</div>
+</footer>
+</body></html>
